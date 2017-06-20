@@ -33,7 +33,6 @@ extension MainTabBarController
         let array = [
             ["clsName":"Home", "title":"首页", "imageName":"one"],
             ["clsName":"Class", "title":"分类", "imageName":"two"],
-//            ["clsName":"UIViewController"],
             ["clsName":"ShoppingCart", "title":"购物车", "imageName":"three"],
             ["clsName":"Mine", "title":"我的", "imageName":"four"]
         ]
@@ -60,13 +59,13 @@ extension MainTabBarController
         }
         
         let storyboard = UIStoryboard.init(name: clsName, bundle: nil)
-        let vc = storyboard.instantiateInitialViewController()
-        vc?.title = title
-        vc?.tabBarItem.image = UIImage(named:imageName)
-        vc?.tabBarItem.selectedImage = UIImage(named: imageName + "1")
-        vc?.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName : #colorLiteral(red: 0.7602152824, green: 0.7601925135, blue: 0.7602053881, alpha: 1)], for: .highlighted)
+        let vc = storyboard.instantiateInitialViewController()!
+        vc.title = title
+        vc.tabBarItem.image = UIImage(named:imageName)
+        vc.tabBarItem.selectedImage = UIImage(named: imageName + "1")
+        vc.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName : #colorLiteral(red: 0.7602152824, green: 0.7601925135, blue: 0.7602053881, alpha: 1)], for: .highlighted)
         
-        return vc!
+        return MainNavController(rootViewController: vc);
     }
     
     

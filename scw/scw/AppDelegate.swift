@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         
         let storyboard = UIStoryboard.init(name: "MainTabBar", bundle: nil)
-        let main = storyboard.instantiateInitialViewController() as! MainTabBarController
+        let main = storyboard.instantiateInitialViewController()
         window?.rootViewController = main
         
         window?.makeKeyAndVisible()
