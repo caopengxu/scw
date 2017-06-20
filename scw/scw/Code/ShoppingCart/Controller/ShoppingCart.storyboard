@@ -20,12 +20,33 @@
                     <view key="view" contentMode="scaleToFill" id="zSj-7R-ZDP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0BD-Sx-Aso">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="lHw-Re-F0E" id="KEx-dg-I1R"/>
+                                    <outlet property="delegate" destination="lHw-Re-F0E" id="APJ-CM-X9h"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0BD-Sx-Aso" secondAttribute="trailing" id="PaU-96-wnQ"/>
+                            <constraint firstItem="0BD-Sx-Aso" firstAttribute="top" secondItem="zSj-7R-ZDP" secondAttribute="top" id="RJl-hk-R9Z"/>
+                            <constraint firstAttribute="bottom" secondItem="0BD-Sx-Aso" secondAttribute="bottom" id="aho-CG-FIe"/>
+                            <constraint firstItem="0BD-Sx-Aso" firstAttribute="leading" secondItem="zSj-7R-ZDP" secondAttribute="leading" id="qGH-if-cff"/>
+                        </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="0BD-Sx-Aso" id="Fnn-YA-JY0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wl8-To-iBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="170"/>
+            <point key="canvasLocation" x="35.625" y="169.01408450704224"/>
         </scene>
     </scenes>
 </document>

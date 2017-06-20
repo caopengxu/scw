@@ -24,6 +24,8 @@
 		BF17FB021EF774FB0025E4C7 /* ShoppingCart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF17FB011EF774FB0025E4C7 /* ShoppingCart.storyboard */; };
 		BF17FB041EF7750D0025E4C7 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17FB031EF7750D0025E4C7 /* MineController.swift */; };
 		BF17FB061EF775150025E4C7 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF17FB051EF775150025E4C7 /* Mine.storyboard */; };
+		BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17FB071EF91D470025E4C7 /* MineCell.swift */; };
+		BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF17FB081EF91D470025E4C7 /* MineCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		BF17FB011EF774FB0025E4C7 /* ShoppingCart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShoppingCart.storyboard; sourceTree = "<group>"; };
 		BF17FB031EF7750D0025E4C7 /* MineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
 		BF17FB051EF775150025E4C7 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		BF17FB071EF91D470025E4C7 /* MineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineCell.swift; sourceTree = "<group>"; };
+		BF17FB081EF91D470025E4C7 /* MineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +275,8 @@
 		BF17FAE61EF772770025E4C7 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				BF17FB071EF91D470025E4C7 /* MineCell.swift */,
+				BF17FB081EF91D470025E4C7 /* MineCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -455,6 +461,7 @@
 				BF17FAB01EF76CEB0025E4C7 /* Assets.xcassets in Resources */,
 				BF17FB061EF775150025E4C7 /* Mine.storyboard in Resources */,
 				BF17FB021EF774FB0025E4C7 /* ShoppingCart.storyboard in Resources */,
+				BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */,
 				BF17FAFA1EF774BD0025E4C7 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +495,7 @@
 				BF17FAA91EF76CEB0025E4C7 /* AppDelegate.swift in Sources */,
 				BF17FAFC1EF774CA0025E4C7 /* ClassController.swift in Sources */,
 				BF17FAF81EF774B40025E4C7 /* HomeController.swift in Sources */,
+				BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
