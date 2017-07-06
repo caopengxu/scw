@@ -14,14 +14,25 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupChildControllers()
+//        setupChildControllers()
+        
+//        for child in self.tabBar.subviews
+//        {
+//            if child .isKind(of: (type(of: UIControl()) as AnyClass))
+//            {
+//                child.isHidden = true
+//            }
+//        }
+        
+        
+        
     }
 
     // FIXME:撰写微博没有实现
-    @objc private func composeStatus()
-    {}
-    
-    private lazy var composeBtn: UIButton = UIButton.init()
+//    @objc private func composeStatus()
+//    {}
+//    
+//    private lazy var composeBtn: UIButton = UIButton.init()
 }
 
 

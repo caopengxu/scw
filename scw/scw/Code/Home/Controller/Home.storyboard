@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +11,7 @@
         <!--Home Controller-->
         <scene sceneID="1SC-k1-4SL">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="hce-KC-V22" customClass="HomeController" customModule="scw" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" hidesBottomBarWhenPushed="YES" id="hce-KC-V22" customClass="HomeController" customModule="scw" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4WK-Kj-CH4"/>
                         <viewControllerLayoutGuide type="bottom" id="hCy-s4-h9r"/>

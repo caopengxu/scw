@@ -27,6 +27,9 @@
 		BF17FB061EF775150025E4C7 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF17FB051EF775150025E4C7 /* Mine.storyboard */; };
 		BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17FB071EF91D470025E4C7 /* MineCell.swift */; };
 		BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF17FB081EF91D470025E4C7 /* MineCell.xib */; };
+		BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */; };
+		BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */; };
+		BF7066C71F0DE7FC00BB6B35 /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		BF17FB051EF775150025E4C7 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 		BF17FB071EF91D470025E4C7 /* MineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineCell.swift; sourceTree = "<group>"; };
 		BF17FB081EF91D470025E4C7 /* MineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
+		BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
 		DF6A2CB21BD755CF7866D02D /* Pods_scw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -272,6 +278,9 @@
 		BF17FAE41EF772770025E4C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */,
+				BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */,
+				BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -488,6 +497,7 @@
 				BF17FAB01EF76CEB0025E4C7 /* Assets.xcassets in Resources */,
 				BF17FB061EF775150025E4C7 /* Mine.storyboard in Resources */,
 				BF17FB021EF774FB0025E4C7 /* ShoppingCart.storyboard in Resources */,
+				BF7066C71F0DE7FC00BB6B35 /* TabBarView.xib in Resources */,
 				BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */,
 				BF17FAFA1EF774BD0025E4C7 /* Home.storyboard in Resources */,
 			);
@@ -564,12 +574,14 @@
 			files = (
 				BF17FAF01EF7740E0025E4C7 /* MainNavController.swift in Sources */,
 				BF17FAF41EF774240025E4C7 /* BaseController.swift in Sources */,
+				BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */,
 				BF17FB001EF774ED0025E4C7 /* ShoppingCartController.swift in Sources */,
 				BF17FAF61EF774240025E4C7 /* MainTabBarController.swift in Sources */,
 				BF17FB041EF7750D0025E4C7 /* MineController.swift in Sources */,
 				BF17FAA91EF76CEB0025E4C7 /* AppDelegate.swift in Sources */,
 				BF17FAFC1EF774CA0025E4C7 /* ClassController.swift in Sources */,
 				BF17FAF81EF774B40025E4C7 /* HomeController.swift in Sources */,
+				BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */,
 				BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,7 +729,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WGX7CRRVZ2;
 				INFOPLIST_FILE = scw/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scw.cpx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -732,7 +744,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WGX7CRRVZ2;
 				INFOPLIST_FILE = scw/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scw.cpx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -817,6 +829,7 @@
 				BF17FACF1EF76CEB0025E4C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF17FAD01EF76CEB0025E4C7 /* Build configuration list for PBXNativeTarget "scwTests" */ = {
 			isa = XCConfigurationList;
@@ -825,6 +838,7 @@
 				BF17FAD21EF76CEB0025E4C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF17FAD31EF76CEB0025E4C7 /* Build configuration list for PBXNativeTarget "scwUITests" */ = {
 			isa = XCConfigurationList;
@@ -833,6 +847,7 @@
 				BF17FAD51EF76CEB0025E4C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
