@@ -33,7 +33,9 @@
         <scene sceneID="IZ1-9t-LHb">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="Home" id="5tE-TW-bGC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="首页" id="Pex-QR-jaO"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="home" selectedImage="home_1" id="Pex-QR-jaO">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7e-XE-JEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +44,7 @@
         <!--Class-->
         <scene sceneID="C0Y-o7-BCv">
             <objects>
-                <viewControllerPlaceholder storyboardName="Class" id="56y-gF-O4a" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Class" referencedIdentifier="Class" id="56y-gF-O4a" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="分类" image="分类" id="Kqb-W4-WMz"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GGB-gK-Y80" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -52,7 +54,7 @@
         <!--ShoppingCart-->
         <scene sceneID="0tG-Qu-k5N">
             <objects>
-                <viewControllerPlaceholder storyboardName="ShoppingCart" id="n7U-r4-71f" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="ShoppingCart" referencedIdentifier="ShoppingCart" id="n7U-r4-71f" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="购物车" image="购物车" id="Igt-gA-8Nw"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEq-c5-vfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -62,7 +64,7 @@
         <!--Mine-->
         <scene sceneID="HAk-Os-ewO">
             <objects>
-                <viewControllerPlaceholder storyboardName="Mine" id="0y3-ex-bG6" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Mine" referencedIdentifier="Mine" id="0y3-ex-bG6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="我的" image="我的" selectedImage="我的_1" id="31K-gt-iER"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17P-XZ-AjR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -71,10 +73,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="home" width="22" height="22"/>
+        <image name="home_1" width="22" height="22"/>
         <image name="分类" width="22" height="22"/>
         <image name="我的" width="22" height="22"/>
         <image name="我的_1" width="22" height="22"/>
         <image name="购物车" width="22" height="22"/>
-        <image name="首页" width="22" height="22"/>
     </resources>
 </document>

@@ -27,9 +27,18 @@
 		BF17FB061EF775150025E4C7 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF17FB051EF775150025E4C7 /* Mine.storyboard */; };
 		BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17FB071EF91D470025E4C7 /* MineCell.swift */; };
 		BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF17FB081EF91D470025E4C7 /* MineCell.xib */; };
+		BF496A9F1F19B34C00DDD7C9 /* PXCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9C1F19B34C00DDD7C9 /* PXCustomButton.swift */; };
+		BF496AA01F19B34C00DDD7C9 /* PXCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9C1F19B34C00DDD7C9 /* PXCustomButton.swift */; };
+		BF496AA11F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */; };
+		BF496AA21F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */; };
+		BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
+		BF496AA41F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */; };
 		BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */; };
 		BF7066C71F0DE7FC00BB6B35 /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */; };
+		BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */; };
+		BFEBC6371F19B57E0082D27D /* MyLabelFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */; };
+		BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6381F19B59B0082D27D /* PXCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +86,15 @@
 		BF17FB051EF775150025E4C7 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 		BF17FB071EF91D470025E4C7 /* MineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineCell.swift; sourceTree = "<group>"; };
 		BF17FB081EF91D470025E4C7 /* MineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineCell.xib; sourceTree = "<group>"; };
+		BF496A9C1F19B34C00DDD7C9 /* PXCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomButton.swift; sourceTree = "<group>"; };
+		BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomImageView.swift; sourceTree = "<group>"; };
+		BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomLabel.swift; sourceTree = "<group>"; };
 		BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
+		BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonFont.swift; sourceTree = "<group>"; };
+		BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabelFont.swift; sourceTree = "<group>"; };
+		BFEBC6381F19B59B0082D27D /* PXCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomView.swift; sourceTree = "<group>"; };
 		DF6A2CB21BD755CF7866D02D /* Pods_scw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -177,6 +192,7 @@
 				BF17FAD91EF772770025E4C7 /* Class */,
 				BF17FAEA1EF772770025E4C7 /* ShoppingCart */,
 				BF17FAE51EF772770025E4C7 /* Mine */,
+				BF496A901F19AC9E00DDD7C9 /* Tool */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -367,6 +383,35 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BF496A901F19AC9E00DDD7C9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BF496A9A1F19B34C00DDD7C9 /* FontAdd */,
+				BF496A9B1F19B34C00DDD7C9 /* FrameCircle */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BF496A9A1F19B34C00DDD7C9 /* FontAdd */ = {
+			isa = PBXGroup;
+			children = (
+				BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */,
+				BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */,
+			);
+			path = FontAdd;
+			sourceTree = "<group>";
+		};
+		BF496A9B1F19B34C00DDD7C9 /* FrameCircle */ = {
+			isa = PBXGroup;
+			children = (
+				BF496A9C1F19B34C00DDD7C9 /* PXCustomButton.swift */,
+				BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */,
+				BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */,
+				BFEBC6381F19B59B0082D27D /* PXCustomView.swift */,
+			);
+			path = FrameCircle;
 			sourceTree = "<group>";
 		};
 		F3A742BAC480D6340C6B581F /* Pods */ = {
@@ -575,14 +620,20 @@
 				BF17FAF01EF7740E0025E4C7 /* MainNavController.swift in Sources */,
 				BF17FAF41EF774240025E4C7 /* BaseController.swift in Sources */,
 				BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */,
+				BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */,
 				BF17FB001EF774ED0025E4C7 /* ShoppingCartController.swift in Sources */,
 				BF17FAF61EF774240025E4C7 /* MainTabBarController.swift in Sources */,
 				BF17FB041EF7750D0025E4C7 /* MineController.swift in Sources */,
+				BF496A9F1F19B34C00DDD7C9 /* PXCustomButton.swift in Sources */,
 				BF17FAA91EF76CEB0025E4C7 /* AppDelegate.swift in Sources */,
+				BFEBC6371F19B57E0082D27D /* MyLabelFont.swift in Sources */,
 				BF17FAFC1EF774CA0025E4C7 /* ClassController.swift in Sources */,
+				BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */,
+				BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */,
 				BF17FAF81EF774B40025E4C7 /* HomeController.swift in Sources */,
 				BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */,
 				BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */,
+				BF496AA11F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +649,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF496AA01F19B34C00DDD7C9 /* PXCustomButton.swift in Sources */,
+				BF496AA41F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */,
 				BF17FAC91EF76CEB0025E4C7 /* scwUITests.swift in Sources */,
+				BF496AA21F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
