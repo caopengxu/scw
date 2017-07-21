@@ -9,13 +9,19 @@
 import UIKit
 
 class MyLabelFont: UILabel {
-
+    
     required init?(coder aDecoder: NSCoder) {
         
-        if self = [super .init(coder: aDecoder)]
-        {
-//            self.
-        }
+        super.init(coder: aDecoder)
+        
+        font = UIFont.systemFont(ofSize: font.pointSize)
     }
 
+    
+    override init(frame: CGRect) {
+        
+        super.init(frame: frame)
+        
+        font = UIFont.systemFont(ofSize: font.pointSize)
+    }
 }

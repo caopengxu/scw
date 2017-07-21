@@ -11,7 +11,7 @@
         <!--我的-->
         <scene sceneID="Bov-MU-tkS">
             <objects>
-                <viewController storyboardIdentifier="Mine" hidesBottomBarWhenPushed="YES" id="Gns-mL-F9s" customClass="MineController" customModule="scw" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Mine" hidesBottomBarWhenPushed="YES" id="Gns-mL-F9s" customClass="MineController" customModule="scw" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4vk-IE-s5H"/>
                         <viewControllerLayoutGuide type="bottom" id="bON-9r-HN2"/>

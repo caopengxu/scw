@@ -9,13 +9,19 @@
 import UIKit
 
 class MyButtonFont: UIButton {
-
-//    required init?(coder aDecoder: NSCoder) {
-//        
-//        if [super.init(coder: aDecoder)] != nil
-//        {
-//            titleLabel?.font = UIFont.systemFont(ofSize: (titleLabel?.font.pointSize)!)
-//        }
-//    }
-
+    
+    required init?(coder aDecoder: NSCoder) {
+        
+        super.init(coder: aDecoder)
+        
+        titleLabel?.font = UIFont.systemFont(ofSize: (titleLabel?.font.pointSize)!)
+    }
+    
+    
+    override init(frame: CGRect) {
+        
+        super.init(frame: frame)
+        
+        titleLabel?.font = UIFont.systemFont(ofSize: (titleLabel?.font.pointSize)!)
+    }
 }

@@ -33,6 +33,9 @@
 		BF496AA21F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */; };
 		BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF496AA41F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
+		BF5F33F21F2198F8000765DD /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F33F11F2198F8000765DD /* OrderButton.swift */; };
+		BF5F33F61F219D0E000765DD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F33F41F219D0E000765DD /* TableViewCell.swift */; };
+		BF5F33F71F219D0E000765DD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5F33F51F219D0E000765DD /* TableViewCell.xib */; };
 		BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */; };
 		BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */; };
 		BF7066C71F0DE7FC00BB6B35 /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */; };
@@ -89,6 +92,10 @@
 		BF496A9C1F19B34C00DDD7C9 /* PXCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomButton.swift; sourceTree = "<group>"; };
 		BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomImageView.swift; sourceTree = "<group>"; };
 		BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomLabel.swift; sourceTree = "<group>"; };
+		BF5F33F11F2198F8000765DD /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
+		BF5F33F31F2199B5000765DD /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
+		BF5F33F41F219D0E000765DD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BF5F33F51F219D0E000765DD /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
@@ -317,6 +324,8 @@
 			children = (
 				BF17FB071EF91D470025E4C7 /* MineCell.swift */,
 				BF17FB081EF91D470025E4C7 /* MineCell.xib */,
+				BF5F33F41F219D0E000765DD /* TableViewCell.swift */,
+				BF5F33F51F219D0E000765DD /* TableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -340,6 +349,7 @@
 		BF17FAE91EF772770025E4C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF5F33F11F2198F8000765DD /* OrderButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -388,6 +398,7 @@
 		BF496A901F19AC9E00DDD7C9 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BF5F33F31F2199B5000765DD /* PCH.pch */,
 				BF496A9A1F19B34C00DDD7C9 /* FontAdd */,
 				BF496A9B1F19B34C00DDD7C9 /* FrameCircle */,
 			);
@@ -537,6 +548,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF17FAF51EF774240025E4C7 /* MainTabBar.storyboard in Resources */,
+				BF5F33F71F219D0E000765DD /* TableViewCell.xib in Resources */,
 				BF17FAFE1EF774D20025E4C7 /* Class.storyboard in Resources */,
 				BF17FAB31EF76CEB0025E4C7 /* LaunchScreen.storyboard in Resources */,
 				BF17FAB01EF76CEB0025E4C7 /* Assets.xcassets in Resources */,
@@ -621,6 +633,8 @@
 				BF17FAF41EF774240025E4C7 /* BaseController.swift in Sources */,
 				BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */,
 				BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */,
+				BF5F33F61F219D0E000765DD /* TableViewCell.swift in Sources */,
+				BF5F33F21F2198F8000765DD /* OrderButton.swift in Sources */,
 				BF17FB001EF774ED0025E4C7 /* ShoppingCartController.swift in Sources */,
 				BF17FAF61EF774240025E4C7 /* MainTabBarController.swift in Sources */,
 				BF17FB041EF7750D0025E4C7 /* MineController.swift in Sources */,
@@ -785,6 +799,13 @@
 				INFOPLIST_FILE = scw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scw.cpx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -800,6 +821,13 @@
 				INFOPLIST_FILE = scw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scw.cpx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
