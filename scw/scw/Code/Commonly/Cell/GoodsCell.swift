@@ -1,5 +1,5 @@
 //
-//  TableViewCell.swift
+//  GoodsCell.swift
 //  scw
 //
 //  Created by cpx on 2017/7/21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class GoodsCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

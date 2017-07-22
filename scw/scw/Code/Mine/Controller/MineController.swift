@@ -16,12 +16,11 @@ class MineController: UIViewController {
         super.viewDidLoad()
 
         tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 100
+        tableView.estimatedRowHeight = 1000
         tableView.register(UINib.init(nibName: "MineCell", bundle: nil), forCellReuseIdentifier: "MineCell")
+        tableView.register(UINib.init(nibName: "GoodsCell", bundle: nil), forCellReuseIdentifier: "GoodsCell")
         
     }
-
-    
     
 }
 
@@ -30,26 +29,42 @@ class MineController: UIViewController {
 
 // MARK: - 表格数据源方法
 extension MineController: UITableViewDelegate, UITableViewDataSource {
-
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+        return 2;
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 1
+        if (section == 0)
+        {
+            return 1;
+        }
+        else
+        {
+            return 8 / 2;
+        }
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MineCell", for: indexPath) as! MineCell
-        
-        return cell
+        if (indexPath.section == 0)
+        {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MineCell")
+            
+            return cell!
+        }
+        else
+        {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "GoodsCell")
+            
+            return cell!;
+        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         print("点击了")
     }
-//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        
-//        return 50
-//    }
 }
 
 

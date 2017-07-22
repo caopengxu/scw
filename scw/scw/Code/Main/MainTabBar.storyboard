@@ -33,9 +33,7 @@
         <scene sceneID="IZ1-9t-LHb">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="Home" id="5tE-TW-bGC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="home" selectedImage="home_1" id="Pex-QR-jaO">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" id="Pex-QR-jaO"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7e-XE-JEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,7 +43,7 @@
         <scene sceneID="C0Y-o7-BCv">
             <objects>
                 <viewControllerPlaceholder storyboardName="Class" referencedIdentifier="Class" id="56y-gF-O4a" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="分类" image="分类" id="Kqb-W4-WMz"/>
+                    <tabBarItem key="tabBarItem" title="" id="Kqb-W4-WMz"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GGB-gK-Y80" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,7 +53,7 @@
         <scene sceneID="0tG-Qu-k5N">
             <objects>
                 <viewControllerPlaceholder storyboardName="ShoppingCart" referencedIdentifier="ShoppingCart" id="n7U-r4-71f" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="购物车" image="购物车" id="Igt-gA-8Nw"/>
+                    <tabBarItem key="tabBarItem" title="" id="Igt-gA-8Nw"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEq-c5-vfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,19 +63,11 @@
         <scene sceneID="HAk-Os-ewO">
             <objects>
                 <viewControllerPlaceholder storyboardName="Mine" referencedIdentifier="Mine" id="0y3-ex-bG6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" image="我的" selectedImage="我的_1" id="31K-gt-iER"/>
+                    <tabBarItem key="tabBarItem" title="" id="31K-gt-iER"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17P-XZ-AjR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2552" y="154"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="home" width="22" height="22"/>
-        <image name="home_1" width="22" height="22"/>
-        <image name="分类" width="22" height="22"/>
-        <image name="我的" width="22" height="22"/>
-        <image name="我的_1" width="22" height="22"/>
-        <image name="购物车" width="22" height="22"/>
-    </resources>
 </document>

@@ -9,8 +9,6 @@
 import UIKit
 
 class MineCell: UITableViewCell {
-
-    @IBOutlet weak var accountBtn: UIButton!
     
     @IBOutlet weak var nikeName: UILabel!
     @IBOutlet weak var GenderImage: UIImageView!
@@ -44,13 +42,20 @@ class MineCell: UITableViewCell {
     @IBOutlet weak var BrowseLogTwoL: UILabel!
     @IBOutlet weak var BrowseLogThreeL: UILabel!
     
-    
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    // MARK:=== 初始化界面数据
+    func reloadDataWithModel(model: NSObject) {
         
         
     }
+    
+    
+    // MARK:=== 设置
+    @IBAction func setUp(_ sender: MyButtonFont) {
+        
+        
+    }
+    
+    
     
 }
 
