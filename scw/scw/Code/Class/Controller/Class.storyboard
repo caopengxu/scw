@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vVS-1e-IpL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vVS-1e-IpL">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,12 +18,347 @@
                         <viewControllerLayoutGuide type="bottom" id="s3V-nh-pj0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NjR-YR-02p">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="012-ro-qCs">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="BtA-NY-Yhd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PK9-OQ-nkW">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glM-XO-JKS">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="zM7-cj-0I1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" image="定位">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Uk-gH-WRv">
+                                        <rect key="frame" x="280" y="0.0" width="40" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="pUM-yN-56Z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" image="电话">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Am4-6R-4B9" customClass="PXCustomView" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="7" width="240" height="29"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="搜索" translatesAutoresizingMaskIntoConstraints="NO" id="6As-Gf-hgX">
+                                                <rect key="frame" x="15" y="7" width="15" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="15" id="ida-lY-b1i"/>
+                                                    <constraint firstAttribute="height" constant="15" id="zp5-o2-1AN"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNS-8I-qWA" customClass="MyLabelFont" customModule="scw" customModuleProvider="target">
+                                                <rect key="frame" x="35" y="6" width="72" height="17"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="请输入关键字">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="12" name="STHeitiSC-Light"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42N-aD-8qm">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="29"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="42N-aD-8qm" firstAttribute="leading" secondItem="Am4-6R-4B9" secondAttribute="leading" id="8c2-bF-8qo"/>
+                                            <constraint firstAttribute="bottom" secondItem="42N-aD-8qm" secondAttribute="bottom" id="DtX-JF-ube"/>
+                                            <constraint firstItem="tNS-8I-qWA" firstAttribute="centerY" secondItem="Am4-6R-4B9" secondAttribute="centerY" id="KZe-19-w7e"/>
+                                            <constraint firstItem="6As-Gf-hgX" firstAttribute="leading" secondItem="Am4-6R-4B9" secondAttribute="leading" constant="15" id="QPz-Mj-zJ4"/>
+                                            <constraint firstAttribute="height" constant="29" id="eA7-Jg-kCS"/>
+                                            <constraint firstItem="42N-aD-8qm" firstAttribute="top" secondItem="Am4-6R-4B9" secondAttribute="top" id="oMb-k1-eAY"/>
+                                            <constraint firstAttribute="trailing" secondItem="42N-aD-8qm" secondAttribute="trailing" id="qNC-7W-np3"/>
+                                            <constraint firstItem="6As-Gf-hgX" firstAttribute="centerY" secondItem="Am4-6R-4B9" secondAttribute="centerY" id="wKm-xo-fiG"/>
+                                            <constraint firstItem="tNS-8I-qWA" firstAttribute="leading" secondItem="6As-Gf-hgX" secondAttribute="trailing" constant="5" id="zV0-kq-3D5"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjt-kG-JjE">
+                                        <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="rik-te-irI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="3Uk-gH-WRv" firstAttribute="top" secondItem="PK9-OQ-nkW" secondAttribute="top" id="3a1-tJ-sel"/>
+                                    <constraint firstItem="Am4-6R-4B9" firstAttribute="centerY" secondItem="PK9-OQ-nkW" secondAttribute="centerY" id="C4r-IK-z0v"/>
+                                    <constraint firstAttribute="height" constant="44" id="Hso-9R-oHJ"/>
+                                    <constraint firstItem="Sjt-kG-JjE" firstAttribute="top" secondItem="glM-XO-JKS" secondAttribute="bottom" id="JwD-Se-Xk1"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sjt-kG-JjE" secondAttribute="bottom" id="LPm-9z-4Gp"/>
+                                    <constraint firstItem="Sjt-kG-JjE" firstAttribute="leading" secondItem="PK9-OQ-nkW" secondAttribute="leading" id="OWC-F2-raU"/>
+                                    <constraint firstItem="glM-XO-JKS" firstAttribute="leading" secondItem="PK9-OQ-nkW" secondAttribute="leading" id="Wp4-J9-vsm"/>
+                                    <constraint firstItem="glM-XO-JKS" firstAttribute="top" secondItem="PK9-OQ-nkW" secondAttribute="top" id="aAs-oQ-2ZL"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sjt-kG-JjE" secondAttribute="trailing" id="cI6-4n-PtU"/>
+                                    <constraint firstAttribute="trailing" secondItem="3Uk-gH-WRv" secondAttribute="trailing" id="en7-2s-HHg"/>
+                                    <constraint firstItem="Am4-6R-4B9" firstAttribute="leading" secondItem="glM-XO-JKS" secondAttribute="trailing" id="kso-NY-ue1"/>
+                                    <constraint firstItem="Sjt-kG-JjE" firstAttribute="top" secondItem="3Uk-gH-WRv" secondAttribute="bottom" id="oxq-aa-TWR"/>
+                                    <constraint firstItem="3Uk-gH-WRv" firstAttribute="leading" secondItem="Am4-6R-4B9" secondAttribute="trailing" id="vJq-M9-ba1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7l-SD-rPJ">
+                                <rect key="frame" x="0.0" y="64" width="75" height="455"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lG7-Vj-iQC" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="lG7-Vj-iQC" secondAttribute="height" multiplier="3:2" id="Tvm-mc-EQY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title="机械设备">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMF-et-Ero" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="dMF-et-Ero" secondAttribute="height" multiplier="3:2" id="uia-eJ-ubz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title="五金/耗材">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjj-SP-R6g" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="100" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="zjj-SP-R6g" secondAttribute="height" multiplier="3:2" id="dcn-QD-krx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title="胶水/油漆">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTw-vM-LLb" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="150" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="sTw-vM-LLb" secondAttribute="height" multiplier="3:2" id="LBi-oI-1D3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title=" ">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgM-ZS-veD" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="200" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="NgM-ZS-veD" secondAttribute="height" multiplier="3:2" id="hja-xL-O9l"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title="PVC/贴膜">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jr1-pT-swO" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="250" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Jr1-pT-swO" secondAttribute="height" multiplier="3:2" id="6af-Ws-Y1X"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title="移门材料">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCD-Yf-ZLa" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="300" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="dCD-Yf-ZLa" secondAttribute="height" multiplier="3:2" id="VFW-8V-MOb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title="台面玻璃">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Hv-Uz-prO" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="350" width="75" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="7Hv-Uz-prO" secondAttribute="height" multiplier="3:2" id="he4-IP-MOU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <state key="normal" title="厨具/电器">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="板材/木材" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2v-Jo-Eg1" customClass="MyLabelFont" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="12" y="160" width="50" height="16"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/铝材" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILI-uz-Ehh" customClass="MyLabelFont" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="23" y="174" width="28" height="16"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="lG7-Vj-iQC" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="1Ov-T8-Cb9"/>
+                                    <constraint firstItem="zjj-SP-R6g" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="4bC-nA-RBN"/>
+                                    <constraint firstItem="sTw-vM-LLb" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="4wN-tJ-Vnd"/>
+                                    <constraint firstItem="7Hv-Uz-prO" firstAttribute="top" secondItem="dCD-Yf-ZLa" secondAttribute="bottom" id="5ig-db-XqR"/>
+                                    <constraint firstAttribute="trailing" secondItem="sTw-vM-LLb" secondAttribute="trailing" id="AAq-BP-pna"/>
+                                    <constraint firstItem="7Hv-Uz-prO" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="FYv-4h-9m4"/>
+                                    <constraint firstAttribute="trailing" secondItem="NgM-ZS-veD" secondAttribute="trailing" id="FdF-Sw-94C"/>
+                                    <constraint firstAttribute="trailing" secondItem="zjj-SP-R6g" secondAttribute="trailing" id="FkN-Yu-u1q"/>
+                                    <constraint firstItem="Jr1-pT-swO" firstAttribute="top" secondItem="NgM-ZS-veD" secondAttribute="bottom" id="KlX-OV-X5x"/>
+                                    <constraint firstItem="H2v-Jo-Eg1" firstAttribute="centerX" secondItem="sTw-vM-LLb" secondAttribute="centerX" id="Lr7-na-GRQ"/>
+                                    <constraint firstItem="dMF-et-Ero" firstAttribute="top" secondItem="lG7-Vj-iQC" secondAttribute="bottom" id="LsP-Id-2FY"/>
+                                    <constraint firstItem="ILI-uz-Ehh" firstAttribute="centerY" secondItem="sTw-vM-LLb" secondAttribute="centerY" constant="7" id="Msy-kX-1qX"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Hv-Uz-prO" secondAttribute="trailing" id="NNh-qE-hFq"/>
+                                    <constraint firstItem="Jr1-pT-swO" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="Yhp-qG-BMJ"/>
+                                    <constraint firstItem="zjj-SP-R6g" firstAttribute="top" secondItem="dMF-et-Ero" secondAttribute="bottom" id="ZgO-tP-3LN"/>
+                                    <constraint firstItem="dMF-et-Ero" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="app-Wa-Xjx"/>
+                                    <constraint firstItem="dCD-Yf-ZLa" firstAttribute="top" secondItem="Jr1-pT-swO" secondAttribute="bottom" id="fXL-mT-oOa"/>
+                                    <constraint firstAttribute="trailing" secondItem="dCD-Yf-ZLa" secondAttribute="trailing" id="hj4-fE-s0X"/>
+                                    <constraint firstItem="lG7-Vj-iQC" firstAttribute="top" secondItem="Q7l-SD-rPJ" secondAttribute="top" id="hmq-7b-zeA"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jr1-pT-swO" secondAttribute="trailing" id="jUP-Gx-rDc"/>
+                                    <constraint firstItem="ILI-uz-Ehh" firstAttribute="centerX" secondItem="sTw-vM-LLb" secondAttribute="centerX" id="kHg-Lp-sNo"/>
+                                    <constraint firstAttribute="width" secondItem="Q7l-SD-rPJ" secondAttribute="height" multiplier="15:91" id="mMn-IH-0fl"/>
+                                    <constraint firstItem="sTw-vM-LLb" firstAttribute="top" secondItem="zjj-SP-R6g" secondAttribute="bottom" id="nU3-p6-Fdd"/>
+                                    <constraint firstAttribute="trailing" secondItem="dMF-et-Ero" secondAttribute="trailing" id="pRw-cx-AGi"/>
+                                    <constraint firstItem="H2v-Jo-Eg1" firstAttribute="centerY" secondItem="sTw-vM-LLb" secondAttribute="centerY" constant="-7" id="puG-VS-Elm"/>
+                                    <constraint firstItem="dCD-Yf-ZLa" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="vFD-5a-cJP"/>
+                                    <constraint firstItem="NgM-ZS-veD" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="leading" id="vFk-sK-Dsz"/>
+                                    <constraint firstItem="NgM-ZS-veD" firstAttribute="top" secondItem="sTw-vM-LLb" secondAttribute="bottom" id="vO5-sJ-Wbk"/>
+                                    <constraint firstAttribute="trailing" secondItem="lG7-Vj-iQC" secondAttribute="trailing" id="zfa-L8-WNw"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xdn-qa-Dxi">
+                                <rect key="frame" x="75" y="64" width="245" height="455"/>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vVS-1e-IpL" id="W8U-Df-lzX"/>
+                                    <outlet property="delegate" destination="vVS-1e-IpL" id="R5N-7s-1dV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PK9-OQ-nkW" secondAttribute="trailing" id="4UO-Fb-lvN"/>
+                            <constraint firstAttribute="trailing" secondItem="012-ro-qCs" secondAttribute="trailing" id="55z-vx-bCK"/>
+                            <constraint firstItem="s3V-nh-pj0" firstAttribute="top" secondItem="Xdn-qa-Dxi" secondAttribute="bottom" id="7XD-A6-crD"/>
+                            <constraint firstItem="012-ro-qCs" firstAttribute="top" secondItem="NjR-YR-02p" secondAttribute="top" id="8AZ-ja-heD"/>
+                            <constraint firstAttribute="trailing" secondItem="Xdn-qa-Dxi" secondAttribute="trailing" id="9lc-51-v3A"/>
+                            <constraint firstItem="012-ro-qCs" firstAttribute="leading" secondItem="NjR-YR-02p" secondAttribute="leading" id="D2U-nG-wh9"/>
+                            <constraint firstItem="PK9-OQ-nkW" firstAttribute="top" secondItem="ktk-Zx-XaU" secondAttribute="bottom" id="N2W-A2-5Nv"/>
+                            <constraint firstItem="Q7l-SD-rPJ" firstAttribute="width" secondItem="Q7l-SD-rPJ" secondAttribute="height" multiplier="15:91" id="OU4-93-MDi"/>
+                            <constraint firstItem="Q7l-SD-rPJ" firstAttribute="leading" secondItem="NjR-YR-02p" secondAttribute="leading" id="jua-Bo-ych"/>
+                            <constraint firstItem="Q7l-SD-rPJ" firstAttribute="top" secondItem="PK9-OQ-nkW" secondAttribute="bottom" id="luv-8t-ic1"/>
+                            <constraint firstItem="Xdn-qa-Dxi" firstAttribute="leading" secondItem="Q7l-SD-rPJ" secondAttribute="trailing" id="uR7-nE-lo5"/>
+                            <constraint firstItem="PK9-OQ-nkW" firstAttribute="leading" secondItem="NjR-YR-02p" secondAttribute="leading" id="v0o-EO-u9G"/>
+                            <constraint firstItem="Xdn-qa-Dxi" firstAttribute="top" secondItem="PK9-OQ-nkW" secondAttribute="bottom" id="xVp-1d-oLX"/>
+                            <constraint firstItem="s3V-nh-pj0" firstAttribute="top" secondItem="Q7l-SD-rPJ" secondAttribute="bottom" id="yps-hp-psq"/>
+                        </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="分类" image="分类" selectedImage="分类_1" id="6Z7-29-PrM"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="Xdn-qa-Dxi" id="Ndg-VJ-Vmw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P1g-Cu-027" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -32,5 +368,8 @@
     <resources>
         <image name="分类" width="22" height="22"/>
         <image name="分类_1" width="22" height="22"/>
+        <image name="定位" width="21" height="21"/>
+        <image name="搜索" width="30" height="30"/>
+        <image name="电话" width="21" height="21"/>
     </resources>
 </document>

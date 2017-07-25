@@ -42,6 +42,10 @@
 		BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */; };
 		BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */; };
 		BF7066C71F0DE7FC00BB6B35 /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */; };
+		BFA12BDE1F2600C8002112B2 /* ClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA12BDC1F2600C8002112B2 /* ClassCell.swift */; };
+		BFA12BDF1F2600C8002112B2 /* ClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA12BDD1F2600C8002112B2 /* ClassCell.xib */; };
+		BFA12BE11F26D802002112B2 /* ClassHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA12BE01F26D802002112B2 /* ClassHeaderView.swift */; };
+		BFA12BE31F26D811002112B2 /* ClassHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA12BE21F26D811002112B2 /* ClassHeaderView.xib */; };
 		BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */; };
 		BFEBC6371F19B57E0082D27D /* MyLabelFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */; };
 		BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6381F19B59B0082D27D /* PXCustomView.swift */; };
@@ -105,6 +109,10 @@
 		BF7066C21F0DE7CF00BB6B35 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		BF7066C41F0DE7EC00BB6B35 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		BF7066C61F0DE7FC00BB6B35 /* TabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
+		BFA12BDC1F2600C8002112B2 /* ClassCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCell.swift; sourceTree = "<group>"; };
+		BFA12BDD1F2600C8002112B2 /* ClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassCell.xib; sourceTree = "<group>"; };
+		BFA12BE01F26D802002112B2 /* ClassHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassHeaderView.swift; sourceTree = "<group>"; };
+		BFA12BE21F26D811002112B2 /* ClassHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassHeaderView.xib; sourceTree = "<group>"; };
 		BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonFont.swift; sourceTree = "<group>"; };
 		BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabelFont.swift; sourceTree = "<group>"; };
 		BFEBC6381F19B59B0082D27D /* PXCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomView.swift; sourceTree = "<group>"; };
@@ -225,6 +233,8 @@
 		BF17FADA1EF772770025E4C7 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				BFA12BDC1F2600C8002112B2 /* ClassCell.swift */,
+				BFA12BDD1F2600C8002112B2 /* ClassCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -248,6 +258,8 @@
 		BF17FADD1EF772770025E4C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BFA12BE01F26D802002112B2 /* ClassHeaderView.swift */,
+				BFA12BE21F26D811002112B2 /* ClassHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -592,10 +604,12 @@
 				BF17FAFE1EF774D20025E4C7 /* Class.storyboard in Resources */,
 				BF17FAB31EF76CEB0025E4C7 /* LaunchScreen.storyboard in Resources */,
 				BF17FAB01EF76CEB0025E4C7 /* Assets.xcassets in Resources */,
+				BFA12BDF1F2600C8002112B2 /* ClassCell.xib in Resources */,
 				BF17FB061EF775150025E4C7 /* Mine.storyboard in Resources */,
 				BF17FB021EF774FB0025E4C7 /* ShoppingCart.storyboard in Resources */,
 				BF7066C71F0DE7FC00BB6B35 /* TabBarView.xib in Resources */,
 				BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */,
+				BFA12BE31F26D811002112B2 /* ClassHeaderView.xib in Resources */,
 				BF6E42531F21ECC4001BAE4D /* ShoppingCartCell.xib in Resources */,
 				BF6E425B1F21F489001BAE4D /* GoodsCell.xib in Resources */,
 				BF17FAFA1EF774BD0025E4C7 /* Home.storyboard in Resources */,
@@ -685,10 +699,12 @@
 				BFEBC6371F19B57E0082D27D /* MyLabelFont.swift in Sources */,
 				BF17FAFC1EF774CA0025E4C7 /* ClassController.swift in Sources */,
 				BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */,
+				BFA12BDE1F2600C8002112B2 /* ClassCell.swift in Sources */,
 				BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */,
 				BF17FAF81EF774B40025E4C7 /* HomeController.swift in Sources */,
 				BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */,
 				BF6E425D1F21F4A8001BAE4D /* GoodsModel.swift in Sources */,
+				BFA12BE11F26D802002112B2 /* ClassHeaderView.swift in Sources */,
 				BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */,
 				BF496AA11F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */,
 				BF6E42521F21ECC4001BAE4D /* ShoppingCartCell.swift in Sources */,

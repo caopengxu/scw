@@ -1,23 +1,19 @@
-%PDF-1.4%‚„œ”
-1 0 obj<</Metadata 2 0 R/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 7323/Subtype/XML/Type/Metadata>>stream
+%PDF-1.5%‚„œ”
+1 0 obj<</Metadata 2 0 R/OCProperties<</D<</ON[5 0 R]/Order 6 0 R/RBGroups[]>>/OCGs[5 0 R]>>/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 19487/Subtype/XML/Type/Metadata>>stream
 <?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c111 79.158325, 2015/09/10-01:10:20        ">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description rdf:about=""
             xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
             xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
-            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
-            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
-            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
          <xmpMM:OriginalDocumentID>xmp.did:f2375954-c98e-0244-96ea-7114d4a567dc</xmpMM:OriginalDocumentID>
-         <xmpMM:DocumentID>adobe:docid:photoshop:7d71ce49-57bc-11e7-b247-8628fcbfcd9c</xmpMM:DocumentID>
-         <xmpMM:InstanceID>uuid:13237d89-dd56-4661-aa26-4d4a52489872</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:18748BF43C70E711AD7CEB35B3ED206B</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:87f409a1-7635-4422-9574-ce32bf43cdeb</xmpMM:InstanceID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:1da33796-9b3a-c543-a242-d7422f561716</stRef:instanceID>
-            <stRef:documentID>xmp.did:50F25B5C57BC11E7AF74921AC1FD9E46</stRef:documentID>
+            <stRef:instanceID>uuid:13237d89-dd56-4661-aa26-4d4a52489872</stRef:instanceID>
+            <stRef:documentID>adobe:docid:photoshop:7d71ce49-57bc-11e7-b247-8628fcbfcd9c</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:f2375954-c98e-0244-96ea-7114d4a567dc</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <xmpMM:History>
@@ -44,25 +40,79 @@
                   <stEvt:softwareAgent>Adobe Photoshop CC 2015 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:18748BF43C70E711AD7CEB35B3ED206B</stEvt:instanceID>
+                  <stEvt:when>2017-07-24T14:55:03+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
-         <xmp:CreatorTool>Adobe Photoshop CC 2015 (Windows)</xmp:CreatorTool>
-         <xmp:CreateDate>2017-06-23T10:33:18+08:00</xmp:CreateDate>
-         <xmp:ModifyDate>2017-06-23T10:34:55+08:00</xmp:ModifyDate>
-         <xmp:MetadataDate>2017-06-23T10:34:55+08:00</xmp:MetadataDate>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/">
+         <xmp:CreatorTool>Adobe Illustrator CS6 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2017-07-24T14:55:13+08:00</xmp:CreateDate>
+         <xmp:ModifyDate>2017-07-24T14:55:13+08:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2017-07-24T14:55:13+08:00</xmp:MetadataDate>
          <xmp:Thumbnails>
             <rdf:Alt>
                <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
                   <xmpGImg:format>JPEG</xmpGImg:format>
-                  <xmpGImg:height>42</xmpGImg:height>
-                  <xmpGImg:width>42</xmpGImg:width>
-                  <xmpGImg:image>/9j/7QAMQWRvYmVfQ00AAv/uAA5BZG9iZQBkgAAAAAH/2wCEAAwICAgJCAwJCQwRCwoLERUPDAwP&#xA;FRgTExUTExgRDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwBDQsLDQ4NEA4OEBQO&#xA;Dg4UFA4ODg4UEQwMDAwMEREMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEI&#xA;ACoAKgMBIgACEQEDEQH/3QAEAAP/xAE/AAABBQEBAQEBAQAAAAAAAAADAAECBAUGBwgJCgsBAAEF&#xA;AQEBAQEBAAAAAAAAAAEAAgMEBQYHCAkKCxAAAQQBAwIEAgUHBggFAwwzAQACEQMEIRIxBUFRYRMi&#xA;cYEyBhSRobFCIyQVUsFiMzRygtFDByWSU/Dh8WNzNRaisoMmRJNUZEXCo3Q2F9JV4mXys4TD03Xj&#xA;80YnlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3EQACAgECBAQDBAUGBwcG&#xA;BTUBAAIRAyExEgRBUWFxIhMFMoGRFKGxQiPBUtHwMyRi4XKCkkNTFWNzNPElBhaisoMHJjXC0kST&#xA;VKMXZEVVNnRl4vKzhMPTdePzRpSkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2JzdHV2d3h5ent8f/&#xA;2gAMAwEAAhEDEQA/AO8yK8jq3UcjCdY+jp+Fsbc2p2191j2Nu2Otb766K67GfQ/nEDMwMPoFuL1L&#xA;Bqbj47HijOa3RpqtIYy6zdPux7/T/lqziudjfWPNx7D7c+uvJo8JqaMXIZP7/tpsTdettyR+xMat&#xA;tl+dU8vssMMqqEVuu/ess3vb6VbElOwkoU1uqprrc42OY0NLzy4gRuP9ZTSUpJJJJT//0PQ+tYN2&#xA;RTXlYcfb8F3rY06btNtuO4/uZFf6NV8j/LGDjdV6Ydubikvpa/Qz9DJwcj931P5t/wDL962li5tV&#xA;nSMt/VsZpfh3a9Rx2iYj/tdSz/SM/wC1P+lr96SnQ6b1CjqOK3Iplpkstqdo+uxullNrfzXscrSx&#xA;snHtruHWujRf6zWnJx2kbb2R7LanfR+01t+h/pEx6v1TNcB0nDLW1jddZnB9In/uPS3bvdd/wn8z&#xA;Wkp2klnYHWasm44eRW7Dz2iXYtsSR+/Ra39HkV/y61opKf/R9VSSSSU4j8XK6LY+/p1bsjpzyX3Y&#xA;DPp1k6vtwR+678/F/wC2VpYPUsLqFXq4lrbQNHNGjmn92ys++t39dWVwv1s/5aq+hz/2g/p3H+G/&#xA;k/upKd/6z+hkUV9PrYLepXuBw4JDqiD7szez3010t/O/wn82ttcn9Sf57O4+kP5/+m/+hX/Bf6Nd&#xA;Ykp//9k=</xmpGImg:image>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgBAAEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q7FXYqtlljijMkh4o&#xA;vU7nqadsVSrVvNvl/SbZbjULr0YXcRq3pyPViCQKIrHopxVhmufmJ5OubtJINQ5oIwpPozjfkT3Q&#xA;eOKvNL3QNW1LVZ7iyg9WG9neS2bmi8llclDRmBFQR1xVEp+WfndzRdNqev8AfW//AFUxVDXfkXzV&#xA;ZyCK5sfTdhyA9WE7EkfsufDFXovlfzToMLaRpMt1x1CM29q8PpyGky8YyvILx+1tWtMVeoVGKuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KvPdd/Mv0dKnk/RvLjx2&#xA;9anVwP8AfeKsKv8AzH/jOEaX9X+oeiwuvW5+tXiCnHjxj/35WtcVRmifk7+lLV7j9L+jxkMfH6vy&#xA;6AGtfVX+bFWc6X+Xf1EWn+5D1Pqvp/7p48vTp/lmlaYqyiKw9Ni3Ou1On9uKpZrHlf8ASNys/wBZ&#xA;9LigTjw5dCTWvIeOKvCpG/Rnn9m/vfqWqk0+zz9K5/2VK8cVe3eW/N/6ZvpLX6p6HCIy8/U51oyr&#xA;SnFf5sVZJirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirAPNHmjXbHX&#xA;bm1tbn04I+HBOEbU5Rqx3ZSepxV5v5SuZtc8w2ml6o31iwuPU9aGgTlwjZ1+JOLCjKDscVer6J5B&#xA;8pWt08kFjwcxlSfVmO1Qe7nwxVlFjp1nYxGK1j9ONm5las3xEAV+InwxVEYq7FXYq8q81eV9CjfW&#xA;NUS2pfIbm5WbnIaSjk4biW4/a3pSmKpd+TWqX115nuo55eaCykYDio39WIdgPHFXswxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KsW8869pOk/Uv0hP6Prer6XwO9eHDl9hW&#xA;/mGKvHPMllc6zrVxqWmp69lPw9KWoSvCNUb4XKsKMpG4xV9AwQSrKrMtAK1NR4Yqi8VdirsVdirs&#xA;VSzzTFJN5Y1eGMcpJLK4RF2FWaJgBvirwbQrS40K7e71VPq9vJGYkeoerlgwFIyx6KcVexflzqFn&#xA;faJPNayepGtyyFqMvxCNDT4gPHFWVYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq&#xA;7FXYq8m/Pn/pR/8AR1/zJxVQ8leWL+98s2d1FJEscnqcQxYH4ZXXsp8MVewYq7FXYq7FXYq7FVC/&#xA;geexuIEIDyxOik9KspArTFXkH5meXr3TdBgnneNka6RAELE1Mch7qPDFU7/Ji/ht/K90jhiTfSHY&#xA;D/fMQ7nFXpEEyzRLIoIVq0B67GmKr8VdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsV&#xA;diryb8+v+lF/0df8ycVZH+V6A+RdMJ/4v/6iJMVZtirsVdirsVdirsVdirAPzohV/K1qCT/vdGdv&#xA;+MMuKvOvLvmvUdCsntLSOGSOSUykyqxbkVVf2WXb4cVe0eSdTn1PyxZX1wqLLN6vJYwQvwyuopUs&#xA;ei+OKp5irsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVeS/n1/0ov+jr/mTirIfy&#xA;xlRfI2mguAf3+1f+XiTFWc4q7FXYq7FXYq7FXYqlfmOwhvrFIprZbpVlDiN0EgBCsK0IPjirxD8z&#xA;LNNP16CGCAWiNao5jjX0wSZJByoAPDFXqX5XXMQ8iaYHlUN+/qGYV/3ok8cVZjirsVdirsVdirsV&#xA;dirsVdirsVdirsVdirsVdirsVdirsVdirsVeTfn1/wBKL/o6/wCZOKrvImt2tt5UsYJEkLp6tSoF&#xA;N5nPcjxxV6virsVdirsVdirsVdiriK4q8O/PAU82Wn/MBH/yemxVNfI+v2dp5XsreRJC6erUqFI3&#xA;mc92Hjir1zFXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq82/OTT4bz9EeozDh9&#xA;ZpxIHX0vEHwxV5uPMF5pI/R9ukbww/ZaQMWPP4zUhlHVvDFX0jirsVdirsVdirsVdiqXa7qU+n2i&#xA;TQqrM0gQhwSKFSexHhirw781NSn1DzDbzTKqstoiAICBQSyHuT44qyjyL5esrvyrY3EjyB39WoUq&#xA;BtM47qfDFXrWKuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxVKtd0+C89D1bZbjh&#xA;zpyQPxrTxBpWmKvBPzBt0tvN9/DHGIUT0aRqvECsKHoKeOKvoeG/s5ZBHHcRyOa0RXUk0FegOKon&#xA;FXYq7FXYq7FWK+aPNGkRaRq0EGr28eox29wkUSXCLMsyowVVUNyDhug61xV4pDqXnnU2NvDdanfM&#xA;o9QxJJcSkAbcuILfzUrirPfI/lu7utJlk17S5J7wTssb30DPKIuCEAGVS3HkW9q1xV6Po2m2drps&#xA;MEdrHAicqRLGqAVYn7IA8cVTHFXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq44&#xA;q8L/ADK0G8uvOuozxvGEf0aBi1doIx2U+GKp/wCSPOOmaj5nsrOCKdZZfV4l1QL8MTsa0YnoMVeq&#xA;4q7FXYq7FULd6jBbSBHViSOXwgUpUjuR4Yq+ddUt31Hz5d20BCyXmqSRxF9gDLcFV5Ur474q9X8i&#xA;+Q9Y0DV5ry8mt5IpLdoQIWctyLo37SIKUTFWeKKDFW8VdirsVdirsVdirsVdirsVdirsVdirsVdi&#xA;rsVdirsVdirsVdirsVdirG9X8m6XqOoy3k8s6yy8eQRkC/CoUUqpPQYq8Y/LSZofO2nSKAWX1qA9&#xA;N4JBir32wv5riYo4UAKTsD4gdziqOxV2KuxVJdbFbpP+MY/WcVeHWg/5CbD/ANtpf+osYq+ixirs&#xA;VdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVaKKTUjfFXzcjHSWGoaf+&#xA;4vIP7qX7dOfwN8L8l+yx7Yqzn8pvNWvav5jubbULr14Us3kVPTjSjCWNQaoqnoxxV6zirsVdiqhP&#xA;Z20zh5U5MBQGpG30HFXztqDtbfmHcvCeDQ6u7RHrQpckr1r4Yq9j8pa5ql/qUkN3P6kaws4Xii/E&#xA;GUV+EDxxVluKuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxViX5lWl&#xA;xP5K1GKJOUjejQVA6TxnucVeVeTJE8v6pLeaufq1tJA0KSf3lXZ0YCkfM9EOKvZPJusadquly3Fh&#xA;N60KTtGzcWX4gikijhT0YYqn2KuxV2KsK826VfnSdZmEX7swXLhuS/Z4Ma0rirzb8sdY07Q9euLv&#xA;VJvq9u9q8SvxZ6uZI2ApGGPRTir2zQNd0rWrN7rTJ/rECSGJn4ulHCqxFHCnowxVMsVdirsVdirs&#xA;VdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVQOt6Z+k9LmsfU9H1uP7zjypxcN0qv8&#xA;vjiryf8AM3yh+htBguvrfr87pIuHp8KVjkateTfy4qr/AJWeZ/0V5fuLf6t63O7eTlz49Y4xSnFv&#xA;5cVetWdx9ZtILjjw9aNZONa05KDSu3jiqrirsVQurWX17Sryx5+n9aglg9SnLj6iFeVKitK+OKvE&#xA;/PHkD/DWkxX31/636k6wen6Xp05I7cq83/k8MVTz8rPMv6O8v3EH1b1eV278ufHrHGKU4nwxV6hp&#xA;d99esYrrh6fqcvgrypxYr1oPDFUVirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirs&#xA;VdirsVdiqQedNI07VNLit7+L1oVnWRV5MvxBHANUKnoxxV475tdvLupR2WjH6rayQrM8f95WRmZS&#xA;aycz0Qd8VezeVrq4m8vaRJI3J5LS3ZzQCpaJSegxVO8VdirjvtiqQ+b9F0zVNNit7+H1oVmWRV5O&#xA;vxBGANUKnoxxV5B5wkfy1qcVjop+qWskKzvH/eVkZ2UtWXm32UHfFXo3kDVtQuPKVhNNLykb1eTc&#xA;VHSZx2GKs3xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KvOvzG8q&#xA;a/q+twXOnWvrwpbLGz+pGlGEjsRR2U9GGKvLdIjfT/O9kl2PSa01OIXA+1xMdwOf2a1pTtir6JsN&#xA;c0u/mMNpP6kiqXK8XX4QQK/EB44qjsVdirsVYj5u0HVdQ1KKa0g9WNYVQtzRfiDsaUYjxxV415v0&#xA;y+tfMV3BPHwlT0+S8lNKxKRuCR0OKvbdH8++U9V1GGwsL71rubl6cfpTLXipc7uir9lT3xVk2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KtFa4q8f8x/l99X1PVPMH1/l&#xA;6M09/wDVvRpXi7Tenz5n5V4/Riqt+W3mz61rs8f1XhS1dq+pX/dkY/lHjir1SzuvrERfjxo3Gla9&#xA;gfbxxVXxV2KuxVgfmb8sP03rlzqf6S+r/WOH7n0OfHhGqfa9Ra1416Yq8k8l6x+iPM1nqPo+v6Hq&#xA;fuuXCvOJ0+1Rv5vDFXuvlDzd/iH63/on1X6r6f8Auz1OXqcv8lKU4YqyLFXYq7FXYq7FXYq7FXYq&#xA;7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FUq17TbKbR9REkfL1Lebn8TCvJDXocVeMaj/AM63&#xA;At9ov+i3UjCB5P7ysbAsVpJzHVB2xV6H+Veuapqvl64uL+f1pku3jVuKL8IijIFECjqxxVnCmqg+&#xA;2Kt4q7FXUGKvLPO3kjyxo3li91LTbL0L2D0vSl9WV6c5URvhd2U1ViNxirG/y+8wava/X/QuOHP0&#xA;eXwIa0506qfHFXs3l27uLzRre4uH5zPz5NQCtHYDYADoMVTHFXYq7FXYq7FXYq7FXYq7FXYq7FXY&#xA;q7FXYq7FXYq7FXYq7FXYq7FXYq7FWKfmRomp6xocFtp0PrzpdJIyckSiCORSauVHVhirxDzRomqa&#xA;PqEdtqMPoTvEJFTkj1Qsyg1QsOqnFXtXlHzh5c/Qmi6d9b/0z6ta2/penL/e+mqceXHj9rvWmKsw&#xA;xV2KuxVRvI3ktnRBVjSg+kHvirzD80vLOt6h+jPqlt6vpevz+ONacvTp9ph4Yqluia5peg6ZDpOr&#xA;T/VtQtuXrQ8Xk4+o5kX4owymqsDscVevxahZzSCOOTk7dBRh0Fe4xVEYq7FXYq7FXYq7FXYq7FXY&#xA;q7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXEVxV5t+ZH5faz5i1yC9spraOKO1SFlmaRW5LJI1RxR&#xA;xSjjvirBNKvodJ8zWdlchnl0+9jhmaMAqWhlCsVqVNKrtUDFXt+leY7HU7hoIElV1QyEyBQKAgdm&#xA;b+bFU1xV2KuxVL9W0+a89L0mUcOVeRI608AfDFXkHnPyJq9z5lvJo5rcI/p0DM9dokHZD4YqyTyz&#xA;+YuiX+uW1pDBcrJJz4l1jC/DGzb0c+GKvRLS9iueXphhwpXlTvXwJ8MVV8VdirsVaZwDQ4qxe8/M&#xA;XRLS6ntpILkvbu8blVjIJQlTSrjwxVX0XzzpOr3T21tDcJIiGQmRUAoCF/Zdv5sVT+KVZF5LUAGm&#xA;+Kr8VdirsVdirsVdirsVdirsVdirsVdirsVdirsVWPErmpJ8NsVeWeZPIWj20+q68k1wbyFri+WN&#xA;mT0zIhaUAgIG48h/NWnfFUu/LjzfqVxrk6PFCALZjsr/AO/Ix3bFXrel3kt3btJIFDByoC1AoAD3&#xA;J8cVRmKuxV2KpXe+XrK7uXuJHkDvSoUqBsAO6nwxV49Lolp5ZjOuWDyS3dp/dpOQ0Z9Q+keQQI32&#xA;XPfFWUfl9551bVPr/wBYht19H0ePpq4+1zrWrt/Lir0axne4tUlcAM1agdNiR3xVXxVbK5RajxxV&#xA;5v8AmH+Y+ueXdagsrKC2kiktlmZpkkZuTSOtBxkQUog7Yq80uPNGoXt5LcSxxK9zI0kgUMADI1TS&#xA;rHxxVG6d5u1LQ52u7SKF5HUxESq5XiSG/ZZd/hxVkemfm95leBibaz+0RskvgP8Ai3FXqekalPe6&#xA;bZXMqqslzDFI4UEAGRQxpUnbfFUyxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxVB6lZW81hdRt&#xA;AkplikUoUDcuSkUpTeuKvJ/Oej3Wl6XFcaXYyWNw06xtNaxGFyhRyVLRhTSqg0xVMfy78xC00SeP&#xA;WtT+r3RuWZEvZ+EhjMaAECVg3HkDir0fTL61u7GK4guI7iJ+XGZHDqaMQaMCQaEUxVGYq7FXYqk2&#xA;vaLp0+lTxLYQyluFEESsTRwelMVeW+cdG1yw+qfoOxurT1PU+sfUYpI+XHjw5+kBWlTSvvirWk+Y&#xA;tVstPittQ1Oe2u4+XqwXE7xyLyYsvJXYMKqQR7Yq9Jn83+W/SbhrVny2pS6ir1/1sVYb+YPmaW40&#xA;aFNB1ZpbwXKmRbG4LSenwcEkRNy48uPtWmKsOsNL8y6xCbm8s73UZUYxiaaOWdgoAbjyYMaVatPf&#xA;FXsmh+UvLo0bT/rOjWYuRbw+t6ltF6nqcBy5VWvKvWuKoi88qeW2iAXR7Mnl0FtEex/ycVea+f8A&#xA;ytfJrEI0XSJVtfq6lxZ27CP1Ob1r6a05UpirHbOfz7Z3sAmk1W3sreRfUDm4SKOJGFeVaKqqo+QG&#xA;KvRPKnm+w/SMn1/WovR9FuPr3S8eXJaU5tStK4qziy1XS76Iy2V5BdRK3BpIZEkUMADSqkitDiqK&#xA;DBhVTUeIxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KpP5o0e51bT47e3ZEdJRITISBQKw7Bv5sVe&#xA;N+fPKeo2msQxySQljbqwKsxFC7juo8MVTvyv+YuieXdCttGvYLmS6tefqPCsbRn1JGkHEs6Ho47Y&#xA;q9fWRWNBXFV2KuxV2KoW+tZLjhwIHGta1708BirzDzZ+U3mPV/MF1qNtc2aQT+nwWR5Qw4RqhqFj&#xA;YdV8cVSIfkx5oJoLqx/5GTf9UsVTby9+UnmSxvXmmubNlaMoAjyk1LKe8Q8MVekeV9HudJ0+S3uG&#xA;R3eUyAxkkUKqO4X+XFU4xV2KuxVjuu+Xb2/sNRgheNXu4po4y5YAGRSByop8cVeQa3+VfmHSLVLm&#xA;5uLR43kEYEbyk1ILftRr/LiqaeUfN2m+UdNl03Uo5pp5pmuVa2VWTgyKgBLtGa1jPbFXoWjef9Gv&#xA;NNhuIobgI/KgZUB2Yjs58MVZXirsVdirsVdirsVdirsVdirsVdirsVdirsVSHXvJml63eJd3cs6S&#xA;JGIgImQLxDM37SNv8WKvG/OnlqxsPM15aQyStHH6fEuVLfFEjb0UeOKsq8lfml5g1rzNZ6ZdW9ok&#xA;Fx6vNokkDjhE7ihaRh1XwxV6rG5ate2Kr8VdirsVdTFVIWsYNQT+GKr1jCmoxVdirsVdirsVdiqX&#xA;a1oVprFqltcvIkaSCQGMqDUAr+0G/mxVguv/AJXaBJeIzXF2CIwNnj/mb/ivFWD6xrF15Z1GbRLB&#xA;UltLTj6bzgtIfUUSnkUKL9pz2xVnnlP8yNc1jzBa6dcwWqQT+pzaNJA44Rs4oWkYdV8MVejKa4q3&#xA;irsVdirsVdirsVdirsVdirsVdirsVdiqCudD0W6mae50+2nnenOWSGN2NBQVZgT0GKvArrRfMWlQ&#xA;Nfw2F5YSQ043aRSwsnI8NpAFpXlTrirLvyr80zR/pT/EGrslfQ+rfX7giv8Aec/T9Zv9WtPbFXqd&#xA;lf2V3apcW1zHPC9eEsbq6mhINGBINCKYqicVdirsVdirsVdirsVdirsVdirsVWPBBIavGrnpVgCa&#xA;fTiqV3nlny/c3Dzz6VaTSvTlLJbxuxoABVipPQYq8AXT/NmlH6+9tf2Cw9bspNCE5fB/eUWleVOu&#xA;KvTfyb1fUtQ/S/129mvPS+ren60ry8eXq1pyJpWgxV6TirsVdirsVdirsVdirsVdirsVdirsVdir&#xA;sVSnzXpFzq+gXWnWzIk8/p8GkJCjhIrmpUMei+GKvG/Nn5f6zpn1X6xNbt63qcfTZz9njWtUX+bF&#xA;U48tfmFovlzRLbRr6G5kurXn6jwLG0Z9SRpBxLOh6OO2KvV4NSgmlWNVYM1aEgU2FfHFUXirsVdi&#xA;rsVdirsVdirsVdirsVdirsVYH+Zl/DL5I1KNQwLejSoFNriM+OKpF+Q3/S8/6Nf+Z2KvWcVdirsV&#xA;dirsVdirsVdirsVdirsVdirsVdirsVSnXvLVhrfofW5JU+r8+HpFRXnxrXkrfy4q8x8yfl/o0etX&#xA;CCa4oOHVk/32v+Riqh5b/M/X7nWreCS3tQj86lUkrtGx7yHwxV6l5c1q61P6x66ovpcOPAEfa5Vr&#xA;Ut/Liqc4q7FXYq7FXYq7FXYq7FXYq7FXYq+fLnzxq2vQNpN5FBHbXNObwq4cemfUFCzuOqeGKs7/&#xA;ACc06Cz/AEv6TMfU+r15EHp6vgB44q9IxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KoC60H&#xA;Srqdp54Ocr05NzcVoKDYEDoMVeX+ZvLOiaFolzqulW31e/t+Hozc5H485Fjb4ZGZTVWI3GKsU0nz&#xA;95ttPV+r3/Dnx5fuoTWladUPjir2byRq+o6n5Ysr29l9W6l9X1JOKrXjK6jZQo6KO2KskxV2KuxV&#xA;2KuxV2KuxV2KuxVhPmPzHrNnrNxbW1xwhThxXghpVFJ3Kk9Tiryj8urC0v8Azlp9pdp6lvJ63NKl&#xA;a8YHYbqQeoxV77pGhaVpXq/UIPR9bj6vxu9eFeP2y38xxVMMVdirsVdirsVdirsVdirsVdirsVdi&#xA;rsVdirsVdirsVWyAlCB1xV59+aPlTX9c/Rn6LtfrH1f1/W/eRpx5+nx+2y1rxPTFXmd35A82w3Dx&#xA;S2HF1pUerCeoB7PirPNH8/eUrfUYZpr/AIxry5N6Ux6qQNgh8cVZjpX5geUdUuGt7C/9aZUMjL6U&#xA;y/CCATV0UdWGKp7b3VvcIXhbkoPEmhG/XuB44qq4q7FXYq7FUPfahaWMQlupPTjZuAajN8RBNPhB&#xA;8MVYP5r85+WotRjWS8oTCpp6cp25N4JirzvW/L2r69qc2raTb/WdPuePozc0j5emgjb4ZGRhRkI3&#xA;GKvcLKyuY7lHdKKK1NQeoI7HFU0xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;pRf6B9bu3uPX4c6fDwrSgA68h4Yq8u1b8mP0fp8t3+mPV9Lj8H1bjXkwXr6p8cVSWwj/AMHzHU6/&#xA;XvWU23pf3NORD8uX7z/fdKUxVPrD86/qcLRfobnVi1frNOoA/wB9HwxVlmmfmZ9d+qj9G+n9Z9P/&#xA;AHdy4+pT/isVpXFWVW2qevIU9LjQVryr/DFUT6/+T+OKpJq3mv8AR9reT/VfV+qRyycfU48vSBNK&#xA;8TStMVea63+cn6UtUt/0R6PGQScvrPLoCKU9Jf5sVQuneWf8bQNqv1n9H+gxtfR4etXgBJy5co/9&#xA;+UpTtir0fyx5N/R2h21n9c9X0uf7z0+NeUjN05HxxVluKuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxVQu7G1u7d7e4TnC9OS1IrQgjcEHqMVSW/8AIflO8hEVzY+ogYMB6sw3&#xA;AI/ZceOKsV1v8vPJ9tdIkOn8FMYYj1pzvUju58MVebX2sajp2qXEFnN6UVnO6Wy8VbisTkIKsCTQ&#xA;DviqtF+ZPnSJuSajQkUr6MB2+mPFVX/laPnv/q5/8kLf/qniqjH5z8y6hcra3l56sF44iuE9OJeS&#xA;Sni4qqAioPbFWY+UfJPli/1KSG7svVjWFnC+rKvxBlFaq48cVej6N5W0HSLVrbT7X0IXcyMnqSPV&#xA;iApNXZj0UYqmscaRoEQUUdB+PfFV2KuxV2Kv/9k=</xmpGImg:image>
                </rdf:li>
             </rdf:Alt>
          </xmp:Thumbnails>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
          <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">APPÈ¶ñÈ°µÁîµËØùÂõæÊ†á</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/">
          <photoshop:ColorMode>3</photoshop:ColorMode>
-         <pdf:Producer>Adobe Photoshop for Windows -- Image Conversion Plug-in</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <pdf:Producer>Adobe PDF library 10.01</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/">
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>True</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>21.000000</stDim:w>
+            <stDim:h>21.000000</stDim:h>
+            <stDim:unit>Pixels</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Cyan</rdf:li>
+               <rdf:li>Magenta</rdf:li>
+               <rdf:li>Yellow</rdf:li>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>ÈªòËÆ§Ëâ≤ÊùøÁªÑ</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
       </rdf:Description>
    </rdf:RDF>
 </x:xmpmeta>
@@ -88,40 +138,53 @@
                                                                                                     
                            
 <?xpacket end="w"?>
-endstreamendobj3 0 obj<</Count 1/Kids[5 0 R]/Type/Pages>>endobj5 0 obj<</ArtBox[0.0 0.0 42.0 42.0]/Contents 6 0 R/MediaBox[0.0 0.0 42.0 42.0]/Parent 3 0 R/Resources<</ProcSet[/PDF/ImageC]/XObject<</Im0 7 0 R>>>>/Type/Page>>endobj6 0 obj<</Length 29>>stream
-q
-42 0 0 42 0 0 cm
-/Im0 Do
-Q
-
-endstreamendobj7 0 obj<</BitsPerComponent 8/ColorSpace/DeviceRGB/DecodeParms<</Blend 1/ColorTransform 1/Colors 3/Columns 42/HSamples[1 1 1 1]/QFactor 0.0/Rows 42/VSamples[1 1 1 1]>>/Filter/DCTDecode/Height 42/ImageName/ps7FEA.jpg/Length 1926/Name/ps7FEA.jpg/SMask 8 0 R/Subtype/Image/Type/XObject/Width 42>>stream
-ˇÿˇÓ Adobe d    ˇ€ ≈ ˇ›  ˇ¿  * *  ˇƒ¢               
- 	              	
-  %q        	
-!"#$%&'()*123456789:ABCDEFGHIJQRSTUVWXYZabcdefghijqrstuvwxyzÅÇÉÑÖÜáàâäëíìîïñóòôö°¢£§•¶ß®©™±≤≥¥µ∂∑∏π∫¡¬√ƒ≈∆«»… —“”‘’÷◊ÿŸ⁄·‚„‰ÂÊÁËÈÍÒÚÛÙıˆ˜¯˘˙     NS         	
-!"#$%&'()*123456789:ABCDEFGHIJQRSTUVWXYZabcdefghijqrstuvwxyzÅÇÉÑÖÜáàâäëíìîïñóòôö°¢£§•¶ß®©™±≤≥¥µ∂∑∏π∫¡¬√ƒ≈∆«»… —“”‘’÷◊ÿŸ⁄·‚„‰ÂÊÁËÈÍÒÚÛÙıˆ˜¯˘˙ˇ⁄    ? ,ıÈ¿ñT¢â5Y+ùló‰Ë:8Ò“Å•,∫î3≈^†”Ô4tŸ™‹ï®E”•Qj§„¡*xBsïâπŸòmGêñ12Ä» Zó»‚\ÙÁb≠ƒJñO®Ñ˚£uâ≈y3êïA)êóëπw∏nXôN<•kQõAÉQâ”ûy‚§Œ6!îÜdÍFÛhÂ¡≈(∑˘Äò IÄò ˇ–.G^dﬁÎgF•<Ó‘≠Ç–D®]ªßî;®FYÏ[›‘&K‹K`4xëîl¨ŒÕU	[QGf!1ºh  (ÒÇ K≈N´z¨–H!’¢ì™wÖ)óLÒ[ï
-’Ÿ§b§3öteÉì$ŒûSC#;;A¬…b»¢Tì3†íDƒ"Ä0OœÃ	J„œ=ëd-âdrM0bz‹©0N&àà[î∆ëÕDÿPV ^‘zb0¬m∆„≥«0kà0Ö°†H°√H"√0RÃ $¿L ˇ—2©iπì«G#^≥ñä$•$‘™ÖÎπ„Ç Œßh	ÑB’Îû9oçÄñ|®°LQ∆°ÇdNÇ'åõLŸô
-Öè0f◊Òj5\õíïÏïZC'î;ì51Z;bE])+käwí€%ó¥Ã◊J‡$ZŒ»“äQâKÀƒ&Sîß%¿Å≈¥ À…8 	)áZTÚ—°ò?åìtJÅúBıã±x…±†aY;u¡;@`6™R¶îì+c+S8ÒåF¶)5.jh /¥¿L $¿ˇ“?âÄgæƒ“éF/]Q,'TJhx„ å≠íœsÈÊFÜÒä≈`#0R©wDaà jƒŸpqA|≈%@¡pêe¶®¡åe ß± ◊äÇS¶ï¨2Ïëºò"}>ﬁ˚\˘	ª)ôN;–X¢ù]°ç·ÇÁ“î(4	£và—ñëƒMöéDVX¿eo)ÁÓd»…#y6¥ïì•ãÅ<y™…g<g\“gë"BÊ]Ÿ#9+bàŸ„C±Nñ#∞µªdåÙù•∏Ì§ŸÑ8†ÎpÚ»K=5ÉCóyH≈4ù•.R]BFŒ-Â
-ƒ#q…xA©DÍ≈ê∆I>h1Ÿ[¢B~èk±ñ#PÁDÑ¡Eâp1¶ ?ˇ”?âÄC¡¡0C0C0Q‡ÜmpC™!Ç◊¿±é]c‘êäâ@‰ƒä<{rZRöò*dë“°Ç:’’ùô4FmPÆ‰®¿–33iA¿‚4(vÜ&!N„¥5;∂ÇË«Äö„eÂe ôé™sO çd∆∆$Ù>*f;© i4hÉ≠R1Tâ∆q1ä‘ÖÌP“¥ ≈gé—¿(ù5¶%Â"ëínLê,•nÚTÑÕ≤sà^ÿ‹\≠rFLL"ùJ9©Tù%;ªI;r÷&√6É∂(EU10£‚∞2∂» m`ˇ‘?âÄò IÄy¢ÉJÀ{Sç{N–πÖ›ΩSµõ1ÀÃC23§û	ª;)[DV`÷dó®€¡fäQ@	¨»XÄ≈8ãë`ä dÖ˙ŒŒ¶ìõŒ{
-@P=5K—3+Sº£∞¢Ø‘eÖÂÂÇ∞,õ‚¥(çÿDèF6CÜvhÒ£G8ë°ÜÄ˚L ˇŸ
-endstreamendobj8 0 obj<</BitsPerComponent 8/ColorSpace/DeviceGray/DecodeParms<</BitsPerComponent 8/Colors 1/Columns 42/Predictor 2>>/Filter/FlateDecode/Height 42/Length 563/Matte[1.0 1.0 1.0]/Name/X/Subtype/Image/Type/XObject/Width 42>>stream
-Hâb` —§P 9o!êî≈pf«É8;øgŒ2:“RsÊZ~Öµõ6ÅEQ¯Õã+ﬂa±?RÄOÂô30fø≠’/|*ã¡òrÎ&,¡ß2Ìú}Ø>ï˘G·ÏåØWxTˆ-É≥%7OZÑGÂ—|$ŒÖ‹*◊ ö¡ò‹û=+p´å,ΩaÕbò1∑Bﬁ˝€k¡·ùÔ≥n„Q»¿∞X”Lß•πæ«´êA{·ƒ≈ :)ãêJÜMR`Cˆú»!†Rw˛¨Y ∫(*È•ã¥ )„ ´ï¬;èÂÅhÕ≈˚K	(Õçœ=¢S”;÷P∫SÿÏàûføJ˘µP‡q˛à_iT$Kn~ÓK¿˛…ñê ≤òr<óÄ“=Nü@tXŸ™.¸*%7?Û3Ú‚ ÅòOÖ¶È:øiÛ@¥F€å]XïF-úf4{Œô¡¿`6ÌﬂæWÕ«±)≠
-jﬁeúô£Ttç[œ—∆wXîŒ4Œ;fÑcı\ÓOpÈV∑ã“ur–‰ƒoöÆd:4ˆU¸√P…æA3Â%eΩO~Ñ°îkΩpÍytAΩ9?m1ÌÁZ#V∂]PÆ	ß2/R«(H≥±©d`Ëtﬁ[âÍÖ3w√±™z·[>≤cßö˚?≈Æí¡x2€¶	ü`º≤∞ﬁÂ8200ïÜ2,^.!9[ÏÒW?™ÖfW˜_˛o«–ΩüB P
-bRÁ∫!Ö@Ä ﬂ£ª
-endstreamendobj9 0 obj<</CreationDate(D:20170623103318+08'00')/Creator(Adobe Photoshop CC 2015 \(Windows\))/ModDate(D:20170623103455+08'00')/Producer(Adobe Photoshop for Windows -- Image Conversion Plug-in)>>endobjxref
-0 10
+endstreamendobj3 0 obj<</Count 1/Kids[7 0 R]/Type/Pages>>endobj7 0 obj<</ArtBox[0.0 0.0 21.0 21.0]/BleedBox[0.0 0.0 21.0 21.0]/Contents 8 0 R/Group 9 0 R/MediaBox[0.0 0.0 21.0 21.0]/Parent 3 0 R/Resources<</ColorSpace<</CS0 10 0 R>>/ExtGState<</GS0 11 0 R>>/ProcSet[/PDF/ImageC/ImageI]/Properties<</MC0 5 0 R>>/XObject<</Im0 12 0 R>>>>/Thumb 13 0 R/TrimBox[0.0 0.0 21.0 21.0]/Type/Page>>endobj8 0 obj<</Filter/FlateDecode/Length 73>>stream
+Hâ“˜wV–˜u6PprqV‡*‰“w6PH/Ê“H-JN-()MÃQ( ‰22T0 B(ïúÀ•Ôôk†‡íœ»ÂÍ‘` xø
+endstreamendobj9 0 obj<</CS/DeviceRGB/I false/K false/S/Transparency>>endobj13 0 obj<</BitsPerComponent 8/ColorSpace 14 0 R/Filter[/ASCII85Decode/FlateDecode]/Height 2/Length 21/Width 2>>stream
+8;Xp,rVCYe!!<3,C'.`~>
+endstreamendobj14 0 obj[/Indexed/DeviceRGB 255 15 0 R]endobj15 0 obj<</Filter[/ASCII85Decode/FlateDecode]/Length 428>>stream
+8;X]O>EqN@%''O_@%e@?J;%+8(9e>X=MR6S?i^YgA3=].HDXF.R$lIL@"pJ+EP(%0
+b]6ajmNZn*!='OQZeQ^Y*,=]?C.B+\Ulg9dhD*"iC[;*=3`oP1[!S^)?1)IZ4dup`
+E1r!/,*0[*9.aFIR2&b-C#s<Xl5FH@[<=!#6V)uDBXnIr.F>oRZ7Dl%MLY\.?d>Mn
+6%Q2oYfNRF$$+ON<+]RUJmC0I<jlL.oXisZ;SYU[/7#<&37rclQKqeJe#,UF7Rgb1
+VNWFKf>nDZ4OTs0S!saG>GGKUlQ*Q?45:CI&4J'_2j<etJICj7e7nPMb=O6S7UOH<
+PO7r\I.Hu&e0d&E<.')fERr/l+*W,)q^D*ai5<uuLX.7g/>$XKrcYp0n+Xl_nU*O(
+l[$6Nn+Z_Nq0]s7hs]`XX1nZ8&94a\~>
+endstreamendobj12 0 obj<</BitsPerComponent 8/ColorSpace 10 0 R/Decode[0.0 255.0]/Filter/FlateDecode/Height 42/Intent/Perceptual/Length 497/Name/X/SMask 16 0 R/Subtype/Image/Type/XObject/Width 42>>stream
+HâÑïãS”@∆7)
+* ZJ¡"
+¯ ≠hyøAEh©µ•†U™H}eo◊?ﬂÀ¥Ö$w;ôŸ/{ø˚n7s3p †kÉôi	¨1K\x:ò=6∞HY…8@∞Ñè%÷©«1ÅÀÙ»KíiÊ¨ë§BMfÈíë≠…õ‚•â‰D]W´FÚA]/–uP-ì/ÍK›<mÍ3◊∏mﬂ@ñEÕÛÚ6O»î∏u™ÜÖò3Ä–N€Zt“èXË4*HÁYæ·É{—Oz‡4]5z.G®rÂ-$ƒqAÂuå€–í–7„ÁŸ)ˆTæã;gÖ4
++8‚≠9s¯Ã¿©¯∆ï?‚=À˘}ò”^'ÿaASÓ¥:≥õé,$Ïπqeöƒ^2µz,¢*Oπ”¯U[-{7 Q2ƒ9)2zÒùH´¬ùœ_∆¸ò∑;E+ZΩwÁ•∏œxBïd†Îñ˚Dã7Xûd˘∆´"x√ˆiD€Os±≈+ÕO°e–":z*†˜PÏF.4*üñ
+˜˚&û·„>øi€wlRGúﬂV¡áæ‚ ˘J“ßÈΩÇ=Ì'UÏäù¶Û«c9òîøçÔyÏ!aË/Ωç÷ﬁ∂D*àlÚøµkJ∂fƒb8(#ñ'.ΩJ¨2=7Çrú€õ(ˇg\åÈ¬ ûö[X
+endstreamendobj10 0 obj[/Indexed/DeviceRGB 120 17 0 R]endobj16 0 obj<</BitsPerComponent 8/ColorSpace/DeviceGray/DecodeParms<</BitsPerComponent 4/Colors 1/Columns 42>>/Filter/FlateDecode/Height 42/Intent/Perceptual/Length 448/Name/X/Subtype/Image/Type/XObject/Width 42>>stream
+HâÑ’›+ÉQ”Ñê˜®°âR$√£(j.p°Õ‚	Im Â¬ÕÆFÿå5Àç°∏‡Çö÷¥6je}ˇ(œ˚úùs.ûﬂ˜y˙Ù<ÁløŒ!DM«·à.ú°Öc qº≈úˆ8/ıaFM•2%¢z<GSNÍ—Çe¶¥r6ÕîÖºçfñÙ≤´,˙}s√êœy=V˘±ƒênt®…l0 ©Ü_	çHu± !wPÍÍŸêÙbEÆWíWÂ•u∏‰…>l…uVç´ùëÕÒd#.‰⁄Éı¬.◊M,Úh&πF–ÀëÌ⁄∫3®ÂPè⁄ƒfºÒæV¢1ÑyÙ5rubü#ÕxUÇO˝#äèQ≠ßè »µ˚Ò≈Aßxï‡«∂xA>çÑùJ1ØÖË∞Söç#ÉPç^c\	.qÎãïKI‹›fiÙEkß⁄)≠Ø⁄Óql2 ÚwJÁ	HYå¥2âA√Ck˛ãÚ˝ ¶˚Aõj…Éq#YßJB¸[ûËR\¬Áü…^°µà$C9’Ëw˚pÉÑòƒcgWŸ!+N9«OW∏]≤˘ ä£Û‡[:œbÍfı#¿ wô>
+endstreamendobj17 0 obj<</Length 363>>stream
+ˇˇˇ˛˛˛˝˝˝¸¸¸˚˚˚˙˙˙˘˘˘¯¯¯˜˜˜ˆˆˆÙÙÙÛÛÛÚÚÚÒÒÒÔÔÔÓÓÓÌÌÌÏÏÏÎÎÎÍÍÍÈÈÈËËËÊÊÊÂÂÂ‰‰‰···‡‡‡ﬁﬁﬁ‹‹‹€€€⁄⁄⁄ŸŸŸÿÿÿ◊◊◊÷÷÷’’’‘‘‘”””–––œœœŒŒŒÀÀÀ«««∆∆∆≈≈≈ƒƒƒ¡¡¡øøøΩΩΩººº∏∏∏∑∑∑∂∂∂µµµ¥¥¥≥≥≥≤≤≤±±±∞∞∞ØØØÆÆÆ≠≠≠¨¨¨´´´©©©®®®ßßß¶¶¶•••§§§£££¢¢¢°°°ùùùúúúõõõòòòóóóîîîíííëëëçççåååäääàààÜÜÜÖÖÖÑÑÑÉÉÉÇÇÇÅÅÅÄÄÄzzzyyywwwvvvsssqqqnnnmmmlllhhhgggfffeeedddbbb```___^^^]]]\\\[[[ZZZYYYXXXWWWVVVUUU
+endstreamendobj5 0 obj<</Intent 18 0 R/Name(˛ˇV˛\\B   1)/Type/OCG/Usage 19 0 R>>endobj18 0 obj[/View/Design]endobj19 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 16.0)/Subtype/Artwork>>>>endobj11 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj6 0 obj[5 0 R]endobj20 0 obj<</CreationDate(D:20170724145513+08'00')/Creator(Adobe Illustrator CS6 \(Windows\))/ModDate(D:20170724145513+08'00')/Producer(Adobe PDF library 10.01)/Title(˛ˇ A P Pôñòuu5ã›V˛h)>>endobjxref
+0 21
 0000000000 65535 f
 0000000016 00000 n
-0000000076 00000 n
-0000007476 00000 n
+0000000144 00000 n
+0000019709 00000 n
 0000000000 00000 f
-0000007527 00000 n
-0000007696 00000 n
-0000007774 00000 n
-0000010020 00000 n
-0000010832 00000 n
+0000022873 00000 n
+0000023176 00000 n
+0000019760 00000 n
+0000020093 00000 n
+0000020234 00000 n
+0000021726 00000 n
+0000023063 00000 n
+0000021020 00000 n
+0000020298 00000 n
+0000020458 00000 n
+0000020506 00000 n
+0000021774 00000 n
+0000022459 00000 n
+0000022947 00000 n
+0000022978 00000 n
+0000023199 00000 n
 trailer
-<</Size 10/Root 1 0 R/Info 9 0 R/ID[<E76EB010341AD740891865ED5FE65D07><5727A3D73C0F4046985A073CE59940FF>]>>
+<</Size 21/Root 1 0 R/Info 20 0 R/ID[<05F2E7DFF96FDB448597B77D69D751B1><593B9EB7328A56408E088CFCC7628BF9>]>>
 startxref
-11034
+23396
 %%EOF
