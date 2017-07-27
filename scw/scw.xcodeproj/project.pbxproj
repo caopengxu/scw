@@ -46,6 +46,13 @@
 		BFA12BDF1F2600C8002112B2 /* ClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA12BDD1F2600C8002112B2 /* ClassCell.xib */; };
 		BFA12BE11F26D802002112B2 /* ClassHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA12BE01F26D802002112B2 /* ClassHeaderView.swift */; };
 		BFA12BE31F26D811002112B2 /* ClassHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA12BE21F26D811002112B2 /* ClassHeaderView.xib */; };
+		BFA12C091F298F35002112B2 /* SignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA12C081F298F35002112B2 /* SignController.swift */; };
+		BFA12C0B1F298F47002112B2 /* SignController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA12C0A1F298F47002112B2 /* SignController.storyboard */; };
+		BFA12C0D1F29B9C8002112B2 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA12C0C1F29B9C8002112B2 /* RegisterController.swift */; };
+		BFA12C0F1F29B9D9002112B2 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA12C0E1F29B9D9002112B2 /* Register.storyboard */; };
+		BFA12C111F29B9EC002112B2 /* ForgetPassWord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA12C101F29B9EC002112B2 /* ForgetPassWord.storyboard */; };
+		BFA12C131F29BA02002112B2 /* ForgetPassWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA12C121F29BA02002112B2 /* ForgetPassWordController.swift */; };
+		BFA12C161F29C558002112B2 /* PCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA12C151F29C558002112B2 /* PCH.swift */; };
 		BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */; };
 		BFEBC6371F19B57E0082D27D /* MyLabelFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */; };
 		BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6381F19B59B0082D27D /* PXCustomView.swift */; };
@@ -100,7 +107,6 @@
 		BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomImageView.swift; sourceTree = "<group>"; };
 		BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomLabel.swift; sourceTree = "<group>"; };
 		BF5F33F11F2198F8000765DD /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
-		BF5F33F31F2199B5000765DD /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
 		BF6E42501F21ECC4001BAE4D /* ShoppingCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartCell.swift; sourceTree = "<group>"; };
 		BF6E42511F21ECC4001BAE4D /* ShoppingCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCartCell.xib; sourceTree = "<group>"; };
 		BF6E42581F21F489001BAE4D /* GoodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsCell.swift; sourceTree = "<group>"; };
@@ -113,6 +119,13 @@
 		BFA12BDD1F2600C8002112B2 /* ClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassCell.xib; sourceTree = "<group>"; };
 		BFA12BE01F26D802002112B2 /* ClassHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassHeaderView.swift; sourceTree = "<group>"; };
 		BFA12BE21F26D811002112B2 /* ClassHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassHeaderView.xib; sourceTree = "<group>"; };
+		BFA12C081F298F35002112B2 /* SignController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignController.swift; sourceTree = "<group>"; };
+		BFA12C0A1F298F47002112B2 /* SignController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignController.storyboard; sourceTree = "<group>"; };
+		BFA12C0C1F29B9C8002112B2 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		BFA12C0E1F29B9D9002112B2 /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		BFA12C101F29B9EC002112B2 /* ForgetPassWord.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ForgetPassWord.storyboard; sourceTree = "<group>"; };
+		BFA12C121F29BA02002112B2 /* ForgetPassWordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPassWordController.swift; sourceTree = "<group>"; };
+		BFA12C151F29C558002112B2 /* PCH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCH.swift; sourceTree = "<group>"; };
 		BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonFont.swift; sourceTree = "<group>"; };
 		BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabelFont.swift; sourceTree = "<group>"; };
 		BFEBC6381F19B59B0082D27D /* PXCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomView.swift; sourceTree = "<group>"; };
@@ -208,6 +221,7 @@
 		BF17FAD81EF772770025E4C7 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				BFA12C071F298EDB002112B2 /* Sign */,
 				BF17FAE31EF772770025E4C7 /* Main */,
 				BF17FADE1EF772770025E4C7 /* Home */,
 				BF17FAD91EF772770025E4C7 /* Class */,
@@ -417,7 +431,7 @@
 		BF496A901F19AC9E00DDD7C9 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				BF5F33F31F2199B5000765DD /* PCH.pch */,
+				BFA12C151F29C558002112B2 /* PCH.swift */,
 				BF496A9A1F19B34C00DDD7C9 /* FontAdd */,
 				BF496A9B1F19B34C00DDD7C9 /* FrameCircle */,
 			);
@@ -476,6 +490,19 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BFA12C071F298EDB002112B2 /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				BFA12C081F298F35002112B2 /* SignController.swift */,
+				BFA12C0A1F298F47002112B2 /* SignController.storyboard */,
+				BFA12C0C1F29B9C8002112B2 /* RegisterController.swift */,
+				BFA12C0E1F29B9D9002112B2 /* Register.storyboard */,
+				BFA12C121F29BA02002112B2 /* ForgetPassWordController.swift */,
+				BFA12C101F29B9EC002112B2 /* ForgetPassWord.storyboard */,
+			);
+			path = Sign;
 			sourceTree = "<group>";
 		};
 		F3A742BAC480D6340C6B581F /* Pods */ = {
@@ -610,9 +637,12 @@
 				BF7066C71F0DE7FC00BB6B35 /* TabBarView.xib in Resources */,
 				BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */,
 				BFA12BE31F26D811002112B2 /* ClassHeaderView.xib in Resources */,
+				BFA12C111F29B9EC002112B2 /* ForgetPassWord.storyboard in Resources */,
 				BF6E42531F21ECC4001BAE4D /* ShoppingCartCell.xib in Resources */,
 				BF6E425B1F21F489001BAE4D /* GoodsCell.xib in Resources */,
 				BF17FAFA1EF774BD0025E4C7 /* Home.storyboard in Resources */,
+				BFA12C0B1F298F47002112B2 /* SignController.storyboard in Resources */,
+				BFA12C0F1F29B9D9002112B2 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,17 +719,21 @@
 				BF17FAF41EF774240025E4C7 /* BaseController.swift in Sources */,
 				BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */,
 				BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */,
+				BFA12C091F298F35002112B2 /* SignController.swift in Sources */,
 				BF5F33F21F2198F8000765DD /* OrderButton.swift in Sources */,
 				BF17FB001EF774ED0025E4C7 /* ShoppingCartController.swift in Sources */,
 				BF17FAF61EF774240025E4C7 /* MainTabBarController.swift in Sources */,
 				BF17FB041EF7750D0025E4C7 /* MineController.swift in Sources */,
 				BF496A9F1F19B34C00DDD7C9 /* PXCustomButton.swift in Sources */,
+				BFA12C161F29C558002112B2 /* PCH.swift in Sources */,
 				BF17FAA91EF76CEB0025E4C7 /* AppDelegate.swift in Sources */,
 				BF6E425A1F21F489001BAE4D /* GoodsCell.swift in Sources */,
 				BFEBC6371F19B57E0082D27D /* MyLabelFont.swift in Sources */,
 				BF17FAFC1EF774CA0025E4C7 /* ClassController.swift in Sources */,
 				BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */,
+				BFA12C0D1F29B9C8002112B2 /* RegisterController.swift in Sources */,
 				BFA12BDE1F2600C8002112B2 /* ClassCell.swift in Sources */,
+				BFA12C131F29BA02002112B2 /* ForgetPassWordController.swift in Sources */,
 				BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */,
 				BF17FAF81EF774B40025E4C7 /* HomeController.swift in Sources */,
 				BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */,
@@ -856,6 +890,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WGX7CRRVZ2;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = scw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -878,6 +913,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WGX7CRRVZ2;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = scw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

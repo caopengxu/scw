@@ -18,9 +18,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow()
         
-        let storyboard = UIStoryboard.init(name: "MainTabBar", bundle: nil)
-        let main = storyboard.instantiateInitialViewController()
-        window?.rootViewController = main
+        if UserDefaults.standard.bool(forKey: "JudgeSign")
+        {
+            let storyboard = UIStoryboard.init(name: "MainTabBar", bundle: nil)
+            let main = storyboard.instantiateInitialViewController()
+            window?.rootViewController = main
+        }
+        else
+        {
+            let storyboard = UIStoryboard.init(name: "SignController", bundle: nil)
+            let main = storyboard.instantiateInitialViewController()
+            window?.rootViewController = main
+        }
+        
         
         window?.makeKeyAndVisible()
         
