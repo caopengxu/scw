@@ -72,11 +72,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HoZ-f7-mZa">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HoZ-f7-mZa">
                                         <rect key="frame" x="48" y="0.0" width="157" height="49.5"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="v8N-YY-4dl" id="psM-EY-AZT"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="获取验证码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPs-Pl-xRA" customClass="PXCustomLabel" customModule="scw" customModuleProvider="target">
                                         <rect key="frame" x="205" y="8" width="75" height="34.5"/>
@@ -142,11 +145,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UvM-T2-rpg" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
                                 <rect key="frame" x="45" y="325" width="285" height="49.5"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lM6-9j-IXL">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lM6-9j-IXL">
                                         <rect key="frame" x="48" y="0.0" width="237" height="49.5"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="v8N-YY-4dl" id="NVA-dX-UVc"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuF-40-WA1">
                                         <rect key="frame" x="37" y="0.0" width="1" height="49.5"/>
@@ -191,11 +197,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="phR-D9-pLV" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
                                 <rect key="frame" x="45" y="380.5" width="285" height="49.5"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0mV-8X-qRq">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0mV-8X-qRq">
                                         <rect key="frame" x="48" y="0.0" width="237" height="49.5"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="v8N-YY-4dl" id="si8-xj-1nf"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kc4-Oh-U8o">
                                         <rect key="frame" x="37" y="0.0" width="1" height="49.5"/>
@@ -358,11 +367,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="人像" width="16" height="16"/>
+        <image name="人像" width="30" height="30"/>
         <image name="对勾红色" width="16" height="16"/>
         <image name="注册页" width="375" height="667"/>
-        <image name="登录文字" width="16" height="16"/>
-        <image name="钥匙" width="16" height="16"/>
-        <image name="锁" width="16" height="16"/>
+        <image name="登录文字" width="213" height="62"/>
+        <image name="钥匙" width="30" height="30"/>
+        <image name="锁" width="30" height="30"/>
     </resources>
 </document>

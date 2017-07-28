@@ -29,7 +29,9 @@ class ForgetPassWordController: UIViewController {
     
     // MARK:=== 点击返回按钮
     @IBAction func returnBtnClick(_ sender: PXCustomButton) {
+        view.endEditing(true)
         
+        navigationController?.popViewController(animated: true)
     }
     
     // 点击其他地方收起键盘
