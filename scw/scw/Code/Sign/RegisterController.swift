@@ -10,14 +10,13 @@ import UIKit
 
 class RegisterController: UIViewController {
 
-    @IBOutlet weak var phoneNumberTextF: UITextField!
-    @IBOutlet weak var verificationTextF: UITextField!
-    @IBOutlet weak var passwordTextF: UITextField!
+    @IBOutlet weak var phoneNumberTextF: MyTextFieldFont!
+    @IBOutlet weak var verificationTextF: MyTextFieldFont!
+    @IBOutlet weak var passwordTextF: MyTextFieldFont!
     
     // MARK:=== viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     

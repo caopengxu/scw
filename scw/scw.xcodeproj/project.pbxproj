@@ -34,6 +34,7 @@
 		BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF496AA41F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF5F33F21F2198F8000765DD /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F33F11F2198F8000765DD /* OrderButton.swift */; };
+		BF61E5491F2C1F6D0031B5FF /* MyTextFieldFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61E5481F2C1F6D0031B5FF /* MyTextFieldFont.swift */; };
 		BF6E42521F21ECC4001BAE4D /* ShoppingCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E42501F21ECC4001BAE4D /* ShoppingCartCell.swift */; };
 		BF6E42531F21ECC4001BAE4D /* ShoppingCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6E42511F21ECC4001BAE4D /* ShoppingCartCell.xib */; };
 		BF6E425A1F21F489001BAE4D /* GoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E42581F21F489001BAE4D /* GoodsCell.swift */; };
@@ -107,6 +108,7 @@
 		BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomImageView.swift; sourceTree = "<group>"; };
 		BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomLabel.swift; sourceTree = "<group>"; };
 		BF5F33F11F2198F8000765DD /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
+		BF61E5481F2C1F6D0031B5FF /* MyTextFieldFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextFieldFont.swift; sourceTree = "<group>"; };
 		BF6E42501F21ECC4001BAE4D /* ShoppingCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartCell.swift; sourceTree = "<group>"; };
 		BF6E42511F21ECC4001BAE4D /* ShoppingCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCartCell.xib; sourceTree = "<group>"; };
 		BF6E42581F21F489001BAE4D /* GoodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsCell.swift; sourceTree = "<group>"; };
@@ -441,8 +443,9 @@
 		BF496A9A1F19B34C00DDD7C9 /* FontAdd */ = {
 			isa = PBXGroup;
 			children = (
-				BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */,
 				BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */,
+				BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */,
+				BF61E5481F2C1F6D0031B5FF /* MyTextFieldFont.swift */,
 			);
 			path = FontAdd;
 			sourceTree = "<group>";
@@ -450,10 +453,10 @@
 		BF496A9B1F19B34C00DDD7C9 /* FrameCircle */ = {
 			isa = PBXGroup;
 			children = (
-				BF496A9C1F19B34C00DDD7C9 /* PXCustomButton.swift */,
-				BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */,
 				BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */,
+				BF496A9C1F19B34C00DDD7C9 /* PXCustomButton.swift */,
 				BFEBC6381F19B59B0082D27D /* PXCustomView.swift */,
+				BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */,
 			);
 			path = FrameCircle;
 			sourceTree = "<group>";
@@ -732,6 +735,7 @@
 				BF17FAFC1EF774CA0025E4C7 /* ClassController.swift in Sources */,
 				BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */,
 				BFA12C0D1F29B9C8002112B2 /* RegisterController.swift in Sources */,
+				BF61E5491F2C1F6D0031B5FF /* MyTextFieldFont.swift in Sources */,
 				BFA12BDE1F2600C8002112B2 /* ClassCell.swift in Sources */,
 				BFA12C131F29BA02002112B2 /* ForgetPassWordController.swift in Sources */,
 				BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */,

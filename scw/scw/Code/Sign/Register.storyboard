@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v8N-YY-4dl">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,20 +18,20 @@
                         <viewControllerLayoutGuide type="bottom" id="uep-jl-asY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wgv-h8-X2u">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="注册页" translatesAutoresizingMaskIntoConstraints="NO" id="7HR-7p-kgC">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJU-oc-oiq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="269.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XQA-mF-gYd">
-                                        <rect key="frame" x="0.0" y="98.5" width="375" height="72.5"/>
+                                        <rect key="frame" x="0.0" y="84" width="320" height="62"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="登录文字" translatesAutoresizingMaskIntoConstraints="NO" id="Zdq-YV-jRf">
-                                                <rect key="frame" x="62" y="0.0" width="250" height="72.5"/>
+                                                <rect key="frame" x="53" y="0.0" width="213" height="62"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Zdq-YV-jRf" secondAttribute="height" multiplier="213:62" id="rZz-PH-BY2"/>
                                                 </constraints>
@@ -53,17 +53,17 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rlu-sv-4Vd" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
-                                <rect key="frame" x="45" y="269.5" width="285" height="49.5"/>
+                                <rect key="frame" x="45" y="230" width="230" height="40"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="人像" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-11-riB">
-                                        <rect key="frame" x="8" y="15" width="20" height="20"/>
+                                        <rect key="frame" x="8" y="10" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="Z4A-nR-TvC"/>
                                             <constraint firstAttribute="height" constant="20" id="eMz-ka-2T5"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvv-do-pfK">
-                                        <rect key="frame" x="37" y="0.0" width="1" height="49.5"/>
+                                        <rect key="frame" x="37" y="0.0" width="1" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="68W-eN-5OB"/>
@@ -72,17 +72,20 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HoZ-f7-mZa">
-                                        <rect key="frame" x="48" y="0.0" width="157" height="49.5"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HoZ-f7-mZa" customClass="MyTextFieldFont" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="48" y="0.0" width="102" height="40"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="attPh" value="请输入手机号"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="delegate" destination="v8N-YY-4dl" id="psM-EY-AZT"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="获取验证码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPs-Pl-xRA" customClass="PXCustomLabel" customModule="scw" customModuleProvider="target">
-                                        <rect key="frame" x="205" y="8" width="75" height="34.5"/>
+                                        <rect key="frame" x="150" y="8" width="75" height="25"/>
                                         <color key="backgroundColor" red="0.70980392160000005" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="75" id="JJY-v7-aCB"/>
@@ -103,7 +106,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-Q7-gxc">
-                                        <rect key="frame" x="205" y="0.0" width="80" height="49.5"/>
+                                        <rect key="frame" x="150" y="0.0" width="80" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="dqw-JL-R4z"/>
                                         </constraints>
@@ -143,19 +146,22 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UvM-T2-rpg" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
-                                <rect key="frame" x="45" y="325" width="285" height="49.5"/>
+                                <rect key="frame" x="45" y="276" width="230" height="40"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lM6-9j-IXL">
-                                        <rect key="frame" x="48" y="0.0" width="237" height="49.5"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lM6-9j-IXL" customClass="MyTextFieldFont" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="48" y="0.0" width="182" height="40"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="attPh" value="请输入短信验证码"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="delegate" destination="v8N-YY-4dl" id="NVA-dX-UVc"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuF-40-WA1">
-                                        <rect key="frame" x="37" y="0.0" width="1" height="49.5"/>
+                                        <rect key="frame" x="37" y="0.0" width="1" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="o4g-Or-LRf"/>
@@ -165,7 +171,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="钥匙" translatesAutoresizingMaskIntoConstraints="NO" id="MZx-sM-c9v">
-                                        <rect key="frame" x="8" y="15" width="20" height="20"/>
+                                        <rect key="frame" x="8" y="10" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="5nc-bT-qMn"/>
                                             <constraint firstAttribute="height" constant="20" id="dlq-rt-PcW"/>
@@ -195,19 +201,22 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="phR-D9-pLV" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
-                                <rect key="frame" x="45" y="380.5" width="285" height="49.5"/>
+                                <rect key="frame" x="45" y="322" width="230" height="40"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0mV-8X-qRq">
-                                        <rect key="frame" x="48" y="0.0" width="237" height="49.5"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0mV-8X-qRq" customClass="MyTextFieldFont" customModule="scw" customModuleProvider="target">
+                                        <rect key="frame" x="48" y="0.0" width="182" height="40"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="attPh" value="请输入密码"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="delegate" destination="v8N-YY-4dl" id="si8-xj-1nf"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kc4-Oh-U8o">
-                                        <rect key="frame" x="37" y="0.0" width="1" height="49.5"/>
+                                        <rect key="frame" x="37" y="0.0" width="1" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1" id="rgT-zt-gSl"/>
@@ -217,7 +226,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="锁" translatesAutoresizingMaskIntoConstraints="NO" id="ifO-KF-qEd">
-                                        <rect key="frame" x="8" y="15" width="20" height="20"/>
+                                        <rect key="frame" x="8" y="10" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="d6H-ac-CAk"/>
                                             <constraint firstAttribute="width" constant="20" id="tIa-eO-UOq"/>
@@ -247,7 +256,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV2-zX-nfu" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
-                                <rect key="frame" x="45" y="458" width="285" height="49.5"/>
+                                <rect key="frame" x="45" y="390" width="230" height="40"/>
                                 <color key="backgroundColor" red="0.70980392160000005" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="AV2-zX-nfu" secondAttribute="height" multiplier="23:4" id="Vd5-Cu-OPx"/>
@@ -272,7 +281,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIu-D2-wEi">
-                                <rect key="frame" x="44" y="511.5" width="22" height="22"/>
+                                <rect key="frame" x="44" y="434" width="22" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="SKW-Xw-PjM"/>
                                     <constraint firstAttribute="width" constant="22" id="vus-lZ-Nl2"/>
@@ -284,7 +293,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwK-o9-Khv" customClass="MyButtonFont" customModule="scw" customModuleProvider="target">
-                                <rect key="frame" x="70" y="512" width="95" height="22"/>
+                                <rect key="frame" x="70" y="434.5" width="95" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="pmg-Kr-VIX"/>
                                     <constraint firstAttribute="width" constant="95" id="q0u-RK-9w5"/>
@@ -298,7 +307,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fef-FK-9E5" customClass="PXCustomButton" customModule="scw" customModuleProvider="target">
-                                <rect key="frame" x="143" y="603" width="89" height="24"/>
+                                <rect key="frame" x="115.5" y="504" width="89" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Uki-3S-ZTn"/>
                                     <constraint firstAttribute="width" constant="89" id="zVi-YY-9Nt"/>

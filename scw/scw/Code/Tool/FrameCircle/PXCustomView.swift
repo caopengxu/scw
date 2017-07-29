@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class PXCustomView: UIView {
 
     @IBInspectable var borderWidth: CGFloat = 0.0 {

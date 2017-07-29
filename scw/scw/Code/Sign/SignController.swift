@@ -10,8 +10,8 @@ import UIKit
 
 class SignController: UIViewController {
 
-    @IBOutlet weak var phoneNumberTextF: UITextField!
-    @IBOutlet weak var passwordTextF: UITextField!
+    @IBOutlet weak var phoneNumberTextF: MyTextFieldFont!
+    @IBOutlet weak var passwordTextF: MyTextFieldFont!
     
     // MARK:=== 界面显示前后
     override func viewWillAppear(_ animated: Bool) {
@@ -33,6 +33,11 @@ class SignController: UIViewController {
     // MARK:=== 点击登录按钮
     @IBAction func loginBtnClick(_ sender: PXCustomButton) {
         
+        UserDefaults.standard.set(true, forKey: "JudgeSign")
+        
+        let storyboard = UIStoryboard.init(name: "MainTabBar", bundle: nil)
+        let main = storyboard.instantiateInitialViewController()
+        __KeyWindow?.rootViewController = main
     }
     
     // MARK:=== 点击我要注册按钮

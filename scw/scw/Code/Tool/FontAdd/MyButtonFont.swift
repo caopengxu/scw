@@ -14,7 +14,7 @@ class MyButtonFont: UIButton {
         
         super.init(coder: aDecoder)
         
-        titleLabel?.font = UIFont.systemFont(ofSize: (titleLabel?.font.pointSize)!)
+        titleLabel?.font = UIFont.systemFont(ofSize: fontAdd((titleLabel?.font.pointSize)!))
     }
     
     
@@ -22,6 +22,6 @@ class MyButtonFont: UIButton {
         
         super.init(frame: frame)
         
-        titleLabel?.font = UIFont.systemFont(ofSize: (titleLabel?.font.pointSize)!)
+        titleLabel?.font = UIFont.systemFont(ofSize: fontAdd((titleLabel?.font.pointSize)!))
     }
 }

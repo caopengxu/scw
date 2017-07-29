@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class PXCustomLabel: UILabel {
+class PXCustomLabel: MyLabelFont {
 
     @IBInspectable var borderWidth: CGFloat = 0.0 {
         didSet {
@@ -29,5 +29,5 @@ class PXCustomLabel: UILabel {
             layer.masksToBounds = true
         }
     }
-
+    
 }

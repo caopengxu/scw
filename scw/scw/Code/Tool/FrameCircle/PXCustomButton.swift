@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class PXCustomButton: UIButton {
+class PXCustomButton: MyButtonFont {
     
     @IBInspectable var borderWidth: CGFloat = 0.0 {
         didSet {
@@ -30,7 +30,6 @@ class PXCustomButton: UIButton {
         }
     }
     
-
 }
 
 

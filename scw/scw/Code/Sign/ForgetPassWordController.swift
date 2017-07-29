@@ -10,14 +10,13 @@ import UIKit
 
 class ForgetPassWordController: UIViewController {
 
-    @IBOutlet weak var phoneNumberTextF: UITextField!
-    @IBOutlet weak var verificationTextF: UITextField!
-    @IBOutlet weak var newPasswordTextF: UITextField!
+    @IBOutlet weak var phoneNumberTextF: MyTextFieldFont!
+    @IBOutlet weak var verificationTextF: MyTextFieldFont!
+    @IBOutlet weak var newPasswordTextF: MyTextFieldFont!
 
     // MARK:=== viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
     

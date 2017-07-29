@@ -14,7 +14,7 @@ class MyLabelFont: UILabel {
         
         super.init(coder: aDecoder)
         
-        font = UIFont.systemFont(ofSize: font.pointSize)
+        font = UIFont.systemFont(ofSize: fontAdd(font.pointSize))
     }
 
     
@@ -22,6 +22,6 @@ class MyLabelFont: UILabel {
         
         super.init(frame: frame)
         
-        font = UIFont.systemFont(ofSize: font.pointSize)
+        font = UIFont.systemFont(ofSize: fontAdd(font.pointSize))
     }
 }
