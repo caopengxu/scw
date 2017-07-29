@@ -8,6 +8,9 @@
 
 import UIKit
 
+let __PhoneNumberLength = 11  // 允许输入手机号码的长度
+let __PasswordLength = 15  // 允许输入密码的最大长度
+
 let __KeyWindow = UIApplication.shared.keyWindow
 let __ScreenBounds = UIScreen.main.bounds
 let __ScreenWidth = UIScreen.main.bounds.width

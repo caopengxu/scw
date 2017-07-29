@@ -62,6 +62,29 @@ extension ForgetPassWordController: UITextFieldDelegate {
             self.view.frame = CGRect.init(x: 0, y: 0, width: __ScreenWidth, height: __ScreenHeight)
         }
     }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        if phoneNumberTextF == textField
+        {
+            if (phoneNumberTextF.text?.lengthOfBytes(using: String.Encoding.utf8))! >= __PhoneNumberLength
+            {
+                print("手机号格式不对")
+                return false
+            }
+        }
+        
+        if newPasswordTextF == textField
+        {
+            if (newPasswordTextF.text?.lengthOfBytes(using: String.Encoding.utf8))! >= __PasswordLength
+            {
+                print("密码最多支持15位")
+                return false
+            }
+        }
+        
+        return true
+    }
 }
 
 

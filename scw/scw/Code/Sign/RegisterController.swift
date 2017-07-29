@@ -9,6 +9,8 @@
 import UIKit
 
 class RegisterController: UIViewController {
+    
+    var judgeAgreement = true
 
     @IBOutlet weak var phoneNumberTextF: MyTextFieldFont!
     @IBOutlet weak var verificationTextF: MyTextFieldFont!
@@ -29,6 +31,20 @@ class RegisterController: UIViewController {
     // MARK:=== 点击对勾按钮
     @IBAction func judgeAgreementBtnClick(_ sender: UIButton) {
         
+        if sender.tag == 0
+        {
+            sender.tag = 1;
+            sender.setImage(#imageLiteral(resourceName: "对勾灰色"), for: .normal)
+            
+            judgeAgreement = false
+        }
+        else
+        {
+            sender.tag = 0;
+            sender.setImage(#imageLiteral(resourceName: "对勾红色"), for: .normal)
+            
+            judgeAgreement = true
+        }
     }
     
     // MARK:=== 点击用户协议按钮
@@ -41,6 +57,14 @@ class RegisterController: UIViewController {
         view.endEditing(true)
         
         navigationController?.popViewController(animated: true)
+    }
+    
+    // MARK:=== 倒计时60s
+    func setTime() {
+        
+        let timeOut = 60
+
+        
     }
     
     // 点击其他地方收起键盘
@@ -71,6 +95,29 @@ extension RegisterController: UITextFieldDelegate {
             
             self.view.frame = CGRect.init(x: 0, y: 0, width: __ScreenWidth, height: __ScreenHeight)
         }
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        if phoneNumberTextF == textField
+        {
+            if (phoneNumberTextF.text?.lengthOfBytes(using: String.Encoding.utf8))! >= __PhoneNumberLength
+            {
+                print("手机号格式不对")
+                return false
+            }
+        }
+        
+        if passwordTextF == textField
+        {
+            if (passwordTextF.text?.lengthOfBytes(using: String.Encoding.utf8))! >= __PasswordLength
+            {
+                print("密码最多支持15位")
+                return false
+            }
+        }
+        
+        return true
     }
 }
 
