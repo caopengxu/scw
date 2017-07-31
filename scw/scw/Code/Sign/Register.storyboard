@@ -84,56 +84,43 @@
                                             <outlet property="delegate" destination="v8N-YY-4dl" id="psM-EY-AZT"/>
                                         </connections>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="获取验证码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPs-Pl-xRA" customClass="PXCustomLabel" customModule="scw" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-Q7-gxc" customClass="CountDownButton" customModule="scw" customModuleProvider="target">
                                         <rect key="frame" x="150" y="8" width="75" height="25"/>
-                                        <color key="backgroundColor" red="0.70980392160000005" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.70980392160000005" green="0.050980392159999999" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="75" id="JJY-v7-aCB"/>
+                                            <constraint firstAttribute="width" constant="75" id="6yg-lU-Wsj"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="10"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
+                                        <state key="normal" title="获取验证码">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="0.0"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="count">
+                                                <integer key="value" value="60"/>
+                                            </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-Q7-gxc">
-                                        <rect key="frame" x="150" y="0.0" width="80" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="dqw-JL-R4z"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
+                                        <connections>
+                                            <action selector="countDownBtnClick:" destination="v8N-YY-4dl" eventType="touchUpInside" id="NDQ-jn-g1K"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.22110445209999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="HoZ-f7-mZa" secondAttribute="bottom" id="9CE-6z-5Mw"/>
-                                    <constraint firstItem="Tf7-Q7-gxc" firstAttribute="top" secondItem="rlu-sv-4Vd" secondAttribute="top" id="D0g-h3-ZXT"/>
+                                    <constraint firstItem="Tf7-Q7-gxc" firstAttribute="top" secondItem="rlu-sv-4Vd" secondAttribute="top" constant="8" id="D0g-h3-ZXT"/>
                                     <constraint firstItem="jvv-do-pfK" firstAttribute="top" secondItem="rlu-sv-4Vd" secondAttribute="top" id="Dun-cj-Uz6"/>
                                     <constraint firstItem="Tf7-Q7-gxc" firstAttribute="leading" secondItem="HoZ-f7-mZa" secondAttribute="trailing" id="H52-Fb-t2h"/>
-                                    <constraint firstAttribute="trailing" secondItem="Tf7-Q7-gxc" secondAttribute="trailing" id="HvA-AL-OuF"/>
+                                    <constraint firstAttribute="trailing" secondItem="Tf7-Q7-gxc" secondAttribute="trailing" constant="5" id="HvA-AL-OuF"/>
                                     <constraint firstItem="8OI-11-riB" firstAttribute="centerY" secondItem="rlu-sv-4Vd" secondAttribute="centerY" id="KIs-oq-Dnz"/>
                                     <constraint firstItem="jvv-do-pfK" firstAttribute="leading" secondItem="rlu-sv-4Vd" secondAttribute="leading" constant="37" id="ONe-Dl-WDa"/>
-                                    <constraint firstItem="RPs-Pl-xRA" firstAttribute="top" secondItem="rlu-sv-4Vd" secondAttribute="top" constant="8" id="Pfp-1L-5ga"/>
                                     <constraint firstItem="HoZ-f7-mZa" firstAttribute="leading" secondItem="jvv-do-pfK" secondAttribute="trailing" constant="10" id="Y7c-xV-VPl"/>
                                     <constraint firstAttribute="width" secondItem="rlu-sv-4Vd" secondAttribute="height" multiplier="23:4" id="bPN-Qr-cDB"/>
-                                    <constraint firstAttribute="trailing" secondItem="RPs-Pl-xRA" secondAttribute="trailing" constant="5" id="dcE-qC-hQl"/>
-                                    <constraint firstAttribute="bottom" secondItem="RPs-Pl-xRA" secondAttribute="bottom" constant="7" id="gKD-Z7-UDf"/>
                                     <constraint firstItem="8OI-11-riB" firstAttribute="leading" secondItem="rlu-sv-4Vd" secondAttribute="leading" constant="8" id="lhB-c8-C5V"/>
                                     <constraint firstAttribute="bottom" secondItem="jvv-do-pfK" secondAttribute="bottom" id="rbN-Lc-fXK"/>
-                                    <constraint firstAttribute="bottom" secondItem="Tf7-Q7-gxc" secondAttribute="bottom" id="tJx-mH-7S4"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tf7-Q7-gxc" secondAttribute="bottom" constant="7" id="tJx-mH-7S4"/>
                                     <constraint firstItem="HoZ-f7-mZa" firstAttribute="top" secondItem="rlu-sv-4Vd" secondAttribute="top" id="wK5-fm-8Dl"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>

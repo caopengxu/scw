@@ -22,6 +22,11 @@ class RegisterController: UIViewController {
         
     }
     
+    // MARK:=== 倒计时
+    @IBAction func countDownBtnClick(_ sender: CountDownButton) {
+        
+        sender.startCountDown()
+    }
     
     // MARK:=== 点击注册按钮
     @IBAction func registerBtnClick(_ sender: PXCustomButton) {
@@ -57,14 +62,6 @@ class RegisterController: UIViewController {
         view.endEditing(true)
         
         navigationController?.popViewController(animated: true)
-    }
-    
-    // MARK:=== 倒计时60s
-    func setTime() {
-        
-        let timeOut = 60
-
-        
     }
     
     // 点击其他地方收起键盘

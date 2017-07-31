@@ -20,6 +20,11 @@ class ForgetPassWordController: UIViewController {
         
     }
     
+    // MARK:=== 倒计时
+    @IBAction func countDownBtnClick(_ sender: CountDownButton) {
+        
+        sender.startCountDown()
+    }
     
     // MARK:=== 点击确定按钮
     @IBAction func defineBtnClick(_ sender: PXCustomButton) {

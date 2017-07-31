@@ -34,6 +34,8 @@
 		BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF496AA41F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF5F33F21F2198F8000765DD /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F33F11F2198F8000765DD /* OrderButton.swift */; };
+		BF611AF01F2EBC24008FD5E0 /* CountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF611AEF1F2EBC24008FD5E0 /* CountDownButton.swift */; };
+		BF611AF31F2ED273008FD5E0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF611AF21F2ED273008FD5E0 /* UIView+Extension.swift */; };
 		BF61E5491F2C1F6D0031B5FF /* MyTextFieldFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61E5481F2C1F6D0031B5FF /* MyTextFieldFont.swift */; };
 		BF6E42521F21ECC4001BAE4D /* ShoppingCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E42501F21ECC4001BAE4D /* ShoppingCartCell.swift */; };
 		BF6E42531F21ECC4001BAE4D /* ShoppingCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6E42511F21ECC4001BAE4D /* ShoppingCartCell.xib */; };
@@ -108,6 +110,8 @@
 		BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomImageView.swift; sourceTree = "<group>"; };
 		BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomLabel.swift; sourceTree = "<group>"; };
 		BF5F33F11F2198F8000765DD /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
+		BF611AEF1F2EBC24008FD5E0 /* CountDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownButton.swift; sourceTree = "<group>"; };
+		BF611AF21F2ED273008FD5E0 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		BF61E5481F2C1F6D0031B5FF /* MyTextFieldFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextFieldFont.swift; sourceTree = "<group>"; };
 		BF6E42501F21ECC4001BAE4D /* ShoppingCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartCell.swift; sourceTree = "<group>"; };
 		BF6E42511F21ECC4001BAE4D /* ShoppingCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCartCell.xib; sourceTree = "<group>"; };
@@ -434,6 +438,8 @@
 			isa = PBXGroup;
 			children = (
 				BFA12C151F29C558002112B2 /* PCH.swift */,
+				BF611AEF1F2EBC24008FD5E0 /* CountDownButton.swift */,
+				BF611AF11F2ED255008FD5E0 /* Extension */,
 				BF496A9A1F19B34C00DDD7C9 /* FontAdd */,
 				BF496A9B1F19B34C00DDD7C9 /* FrameCircle */,
 			);
@@ -459,6 +465,14 @@
 				BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */,
 			);
 			path = FrameCircle;
+			sourceTree = "<group>";
+		};
+		BF611AF11F2ED255008FD5E0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF611AF21F2ED273008FD5E0 /* UIView+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		BF6E42541F21F471001BAE4D /* Commonly */ = {
@@ -736,6 +750,7 @@
 				BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */,
 				BFA12C0D1F29B9C8002112B2 /* RegisterController.swift in Sources */,
 				BF61E5491F2C1F6D0031B5FF /* MyTextFieldFont.swift in Sources */,
+				BF611AF31F2ED273008FD5E0 /* UIView+Extension.swift in Sources */,
 				BFA12BDE1F2600C8002112B2 /* ClassCell.swift in Sources */,
 				BFA12C131F29BA02002112B2 /* ForgetPassWordController.swift in Sources */,
 				BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */,
@@ -744,6 +759,7 @@
 				BF6E425D1F21F4A8001BAE4D /* GoodsModel.swift in Sources */,
 				BFA12BE11F26D802002112B2 /* ClassHeaderView.swift in Sources */,
 				BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */,
+				BF611AF01F2EBC24008FD5E0 /* CountDownButton.swift in Sources */,
 				BF496AA11F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */,
 				BF6E42521F21ECC4001BAE4D /* ShoppingCartCell.swift in Sources */,
 			);
