@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'scw' do
     pod 'Alamofire', '~> 4.4'
+    pod 'Moya'
 end
 
 
