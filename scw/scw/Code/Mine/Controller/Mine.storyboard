@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gns-mL-F9s">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gns-mL-F9s">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--我的-->
+        <!--Mine Controller-->
         <scene sceneID="Bov-MU-tkS">
             <objects>
                 <viewController storyboardIdentifier="Mine" hidesBottomBarWhenPushed="YES" id="Gns-mL-F9s" customClass="MineController" customModule="scw" sceneMemberID="viewController">
@@ -47,7 +47,6 @@
                             <constraint firstItem="P8d-Er-o6N" firstAttribute="leading" secondItem="nPJ-LS-RSc" secondAttribute="leading" id="vtu-Go-gEc"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="我的" image="我的" selectedImage="我的_1" id="2dL-9V-OZP"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -60,8 +59,4 @@
             <point key="canvasLocation" x="26.25" y="136.26760563380282"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="我的" width="22" height="22"/>
-        <image name="我的_1" width="22" height="22"/>
-    </resources>
 </document>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -14,114 +14,46 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kca-id-WZi" customClass="TabBarButton">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kca-id-WZi" customClass="TabBarButton" customModule="scw" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="80" height="49"/>
-                    <state key="normal" image="首页">
-                        <attributedString key="attributedTitle">
-                            <fragment content="首页">
-                                <attributes>
-                                    <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
+                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                    <state key="normal" title="首页" image="首页">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     </state>
-                    <state key="selected" image="首页_1">
-                        <attributedString key="attributedTitle">
-                            <fragment content="首页">
-                                <attributes>
-                                    <color key="NSColor" red="0.70979999999999999" green="0.050979999999999998" blue="0.039219999999999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                    </state>
+                    <state key="selected" image="首页_1"/>
                     <connections>
                         <action selector="btnClick:" destination="omm-Mh-aWL" eventType="touchUpInside" id="mdw-TC-vAc"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ZQ-WC-2i6" customClass="TabBarButton">
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZQ-WC-2i6" customClass="TabBarButton" customModule="scw" customModuleProvider="target">
                     <rect key="frame" x="80" y="0.0" width="80" height="49"/>
-                    <state key="normal" image="分类">
-                        <attributedString key="attributedTitle">
-                            <fragment content="分类">
-                                <attributes>
-                                    <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
+                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                    <state key="normal" title="分类" image="分类">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     </state>
-                    <state key="selected" image="分类_1">
-                        <attributedString key="attributedTitle">
-                            <fragment content="分类">
-                                <attributes>
-                                    <color key="NSColor" red="0.70979999999999999" green="0.050979999999999998" blue="0.039219999999999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                    </state>
+                    <state key="selected" image="分类_1"/>
                     <connections>
                         <action selector="btnClick:" destination="omm-Mh-aWL" eventType="touchUpInside" id="JsX-eg-ztp"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YZD-w7-e1b" customClass="TabBarButton">
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZD-w7-e1b" customClass="TabBarButton" customModule="scw" customModuleProvider="target">
                     <rect key="frame" x="160" y="0.0" width="80" height="49"/>
-                    <state key="normal" image="购物车">
-                        <attributedString key="attributedTitle">
-                            <fragment content="购物车">
-                                <attributes>
-                                    <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
+                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                    <state key="normal" title="购物车" image="购物车">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     </state>
-                    <state key="selected" image="购物车_1">
-                        <attributedString key="attributedTitle">
-                            <fragment content="购物车">
-                                <attributes>
-                                    <color key="NSColor" red="0.70979999999999999" green="0.050979999999999998" blue="0.039219999999999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                    </state>
+                    <state key="selected" image="购物车_1"/>
                     <connections>
                         <action selector="btnClick:" destination="omm-Mh-aWL" eventType="touchUpInside" id="VJi-GL-a3i"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ahY-LT-Jz6" customClass="TabBarButton">
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahY-LT-Jz6" customClass="TabBarButton" customModule="scw" customModuleProvider="target">
                     <rect key="frame" x="240" y="0.0" width="80" height="49"/>
-                    <state key="normal" image="我的">
-                        <attributedString key="attributedTitle">
-                            <fragment content="我的">
-                                <attributes>
-                                    <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
+                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                    <state key="normal" title="我的" image="我的">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     </state>
-                    <state key="selected" image="我的_1">
-                        <attributedString key="attributedTitle">
-                            <fragment content="我的">
-                                <attributes>
-                                    <color key="NSColor" red="0.70980392156862748" green="0.050980392156862744" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
-                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                    </state>
+                    <state key="selected" image="我的_1"/>
                     <connections>
                         <action selector="btnClick:" destination="omm-Mh-aWL" eventType="touchUpInside" id="gA6-GK-ZmW"/>
                     </connections>
@@ -146,6 +78,7 @@
                 <constraint firstAttribute="bottom" secondItem="kca-id-WZi" secondAttribute="bottom" id="vDf-K3-uAA"/>
                 <constraint firstItem="4ZQ-WC-2i6" firstAttribute="width" secondItem="kca-id-WZi" secondAttribute="width" id="wJv-JJ-OiQ"/>
             </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="classBtn" destination="4ZQ-WC-2i6" id="2Dw-lz-cFm"/>

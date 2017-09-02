@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lHw-Re-F0E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lHw-Re-F0E">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--购物车-->
+        <!--Shopping Cart Controller-->
         <scene sceneID="PQo-Dv-swV">
             <objects>
                 <viewController storyboardIdentifier="ShoppingCart" hidesBottomBarWhenPushed="YES" id="lHw-Re-F0E" customClass="ShoppingCartController" customModule="scw" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,11 +17,105 @@
                         <viewControllerLayoutGuide type="bottom" id="zXT-04-MzM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zSj-7R-ZDP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0BD-Sx-Aso">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVq-xF-12h">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购物车" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3s-kE-4Td">
+                                        <rect key="frame" x="132" y="20" width="55" height="43"/>
+                                        <fontDescription key="fontDescription" name="STHeitiSC-Medium" family="Heiti SC" pointSize="18"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOn-br-pA5">
+                                        <rect key="frame" x="0.0" y="63" width="320" height="1"/>
+                                        <color key="backgroundColor" red="0.85882352939999995" green="0.85882352939999995" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="hgJ-Fz-GIg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VMs-Az-Y1v">
+                                        <rect key="frame" x="256" y="20" width="64" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="T4U-Qv-zf9"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="编辑">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.48626999999999998" green="0.48626999999999998" blue="0.48626999999999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="14" name="STHeitiSC-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <tabStops>
+                                                                <textTab alignment="left" location="28">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="56">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="84">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="112">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="140">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="168">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="196">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="224">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="252">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="280">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="308">
+                                                                    <options/>
+                                                                </textTab>
+                                                                <textTab alignment="left" location="336">
+                                                                    <options/>
+                                                                </textTab>
+                                                            </tabStops>
+                                                        </paragraphStyle>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="edit:" destination="lHw-Re-F0E" eventType="touchUpInside" id="dJq-om-tlk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="VMs-Az-Y1v" firstAttribute="top" secondItem="BVq-xF-12h" secondAttribute="top" constant="20" id="1fH-s0-x6P"/>
+                                    <constraint firstItem="q3s-kE-4Td" firstAttribute="centerX" secondItem="BVq-xF-12h" secondAttribute="centerX" id="5ly-8F-8fQ"/>
+                                    <constraint firstItem="q3s-kE-4Td" firstAttribute="top" secondItem="BVq-xF-12h" secondAttribute="top" constant="20" id="8IX-O4-BEs"/>
+                                    <constraint firstItem="hOn-br-pA5" firstAttribute="top" secondItem="BVq-xF-12h" secondAttribute="top" constant="63" id="8WH-ra-czM"/>
+                                    <constraint firstAttribute="bottom" secondItem="hOn-br-pA5" secondAttribute="bottom" id="Mv0-zN-wHU"/>
+                                    <constraint firstItem="hOn-br-pA5" firstAttribute="top" secondItem="VMs-Az-Y1v" secondAttribute="bottom" id="gFT-Q8-cqE"/>
+                                    <constraint firstItem="hOn-br-pA5" firstAttribute="leading" secondItem="BVq-xF-12h" secondAttribute="leading" id="ghV-8u-jc1"/>
+                                    <constraint firstAttribute="trailing" secondItem="hOn-br-pA5" secondAttribute="trailing" id="hHQ-6J-RAZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="VMs-Az-Y1v" secondAttribute="trailing" id="ih8-dU-JH6"/>
+                                    <constraint firstItem="hOn-br-pA5" firstAttribute="top" secondItem="q3s-kE-4Td" secondAttribute="bottom" id="jZD-xD-oc3"/>
+                                    <constraint firstAttribute="height" constant="64" id="mRX-Ka-ZYu"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0BD-Sx-Aso">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="lHw-Re-F0E" id="KEx-dg-I1R"/>
@@ -31,14 +125,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="0BD-Sx-Aso" secondAttribute="trailing" id="PaU-96-wnQ"/>
-                            <constraint firstItem="0BD-Sx-Aso" firstAttribute="top" secondItem="zSj-7R-ZDP" secondAttribute="top" id="RJl-hk-R9Z"/>
-                            <constraint firstAttribute="bottom" secondItem="0BD-Sx-Aso" secondAttribute="bottom" id="aho-CG-FIe"/>
-                            <constraint firstItem="0BD-Sx-Aso" firstAttribute="leading" secondItem="zSj-7R-ZDP" secondAttribute="leading" id="qGH-if-cff"/>
+                            <constraint firstItem="0BD-Sx-Aso" firstAttribute="top" secondItem="BVq-xF-12h" secondAttribute="bottom" id="Fg2-5L-UbS"/>
+                            <constraint firstAttribute="bottom" secondItem="0BD-Sx-Aso" secondAttribute="bottom" id="NPK-91-QVd"/>
+                            <constraint firstAttribute="trailing" secondItem="BVq-xF-12h" secondAttribute="trailing" id="YRA-5J-d6x"/>
+                            <constraint firstItem="0BD-Sx-Aso" firstAttribute="leading" secondItem="zSj-7R-ZDP" secondAttribute="leading" id="iZO-Zo-x4k"/>
+                            <constraint firstItem="BVq-xF-12h" firstAttribute="top" secondItem="zSj-7R-ZDP" secondAttribute="top" id="ilF-0i-L99"/>
+                            <constraint firstAttribute="trailing" secondItem="0BD-Sx-Aso" secondAttribute="trailing" id="jbX-jg-UVc"/>
+                            <constraint firstItem="BVq-xF-12h" firstAttribute="leading" secondItem="zSj-7R-ZDP" secondAttribute="leading" id="srs-ew-9KW"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="购物车" image="购物车" selectedImage="购物车_1" id="cPq-Nh-Baa"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="0BD-Sx-Aso" id="Fnn-YA-JY0"/>
@@ -49,8 +146,4 @@
             <point key="canvasLocation" x="35.625" y="169.01408450704224"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="购物车" width="22" height="22"/>
-        <image name="购物车_1" width="22" height="22"/>
-    </resources>
 </document>

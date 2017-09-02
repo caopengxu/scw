@@ -10,6 +10,9 @@ import UIKit
 
 class TabBarView: UIView {
 
+    var itemClickBack: ((NSInteger) -> Void)?
+//    var itemClickBack : (() ->())?
+    
     var _judgeHome = false
     var _judgeClass = false
     var _judgeShoppingCart = false
@@ -20,11 +23,16 @@ class TabBarView: UIView {
     @IBOutlet weak var shoppingCartBtn: TabBarButton!
     @IBOutlet weak var mineBtn: TabBarButton!
     
-    
+    func setUp()
+    {
+        btnClick(homeBtn)
+    }
     
     
     @IBAction func btnClick(_ sender: TabBarButton)
     {
+        itemClickBack!(sender.tag)
+        
         if (sender.tag == 0)
         {
             if (!_judgeHome)

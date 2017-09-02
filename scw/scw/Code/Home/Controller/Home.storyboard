@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hce-KC-V22">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hce-KC-V22">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--首页-->
+        <!--Home Controller-->
         <scene sceneID="1SC-k1-4SL">
             <objects>
                 <viewController storyboardIdentifier="Home" hidesBottomBarWhenPushed="YES" id="hce-KC-V22" customClass="HomeController" customModule="scw" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,7 +21,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="首页" image="首页" selectedImage="首页_1" id="5yo-mv-LOs"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gb0-Ts-2b1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -29,8 +28,4 @@
             <point key="canvasLocation" x="463" y="-139"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="首页" width="22" height="22"/>
-        <image name="首页_1" width="22" height="22"/>
-    </resources>
 </document>

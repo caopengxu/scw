@@ -34,7 +34,6 @@
 		BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF496AA41F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */; };
 		BF5F33F21F2198F8000765DD /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F33F11F2198F8000765DD /* OrderButton.swift */; };
-		BF5F376D1F30147B0038F90A /* RequestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F376C1F30147B0038F90A /* RequestBase.swift */; };
 		BF611AF01F2EBC24008FD5E0 /* CountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF611AEF1F2EBC24008FD5E0 /* CountDownButton.swift */; };
 		BF611AF31F2ED273008FD5E0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF611AF21F2ED273008FD5E0 /* UIView+Extension.swift */; };
 		BF61E5491F2C1F6D0031B5FF /* MyTextFieldFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61E5481F2C1F6D0031B5FF /* MyTextFieldFont.swift */; };
@@ -111,7 +110,6 @@
 		BF496A9D1F19B34C00DDD7C9 /* PXCustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomImageView.swift; sourceTree = "<group>"; };
 		BF496A9E1F19B34C00DDD7C9 /* PXCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomLabel.swift; sourceTree = "<group>"; };
 		BF5F33F11F2198F8000765DD /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
-		BF5F376C1F30147B0038F90A /* RequestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBase.swift; sourceTree = "<group>"; };
 		BF611AEF1F2EBC24008FD5E0 /* CountDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownButton.swift; sourceTree = "<group>"; };
 		BF611AF21F2ED273008FD5E0 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		BF61E5481F2C1F6D0031B5FF /* MyTextFieldFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextFieldFont.swift; sourceTree = "<group>"; };
@@ -473,7 +471,6 @@
 		BF5F376B1F3013290038F90A /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				BF5F376C1F30147B0038F90A /* RequestBase.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -773,7 +770,6 @@
 				BF611AF01F2EBC24008FD5E0 /* CountDownButton.swift in Sources */,
 				BF496AA11F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */,
 				BF6E42521F21ECC4001BAE4D /* ShoppingCartCell.swift in Sources */,
-				BF5F376D1F30147B0038F90A /* RequestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

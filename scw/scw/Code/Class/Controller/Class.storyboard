@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--分类-->
+        <!--Class Controller-->
         <scene sceneID="wI0-Ni-4jk">
             <objects>
                 <viewController storyboardIdentifier="Class" hidesBottomBarWhenPushed="YES" id="vVS-1e-IpL" customClass="ClassController" customModule="scw" customModuleProvider="target" sceneMemberID="viewController">
@@ -353,7 +353,6 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <tabBarItem key="tabBarItem" title="分类" image="分类" selectedImage="分类_1" id="6Z7-29-PrM"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -366,8 +365,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="分类" width="22" height="22"/>
-        <image name="分类_1" width="22" height="22"/>
         <image name="定位" width="21" height="21"/>
         <image name="搜索" width="30" height="30"/>
         <image name="电话" width="21" height="21"/>

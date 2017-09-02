@@ -16,8 +16,16 @@ class ShoppingCartController: UIViewController {
         super.viewDidLoad()
         
         tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 1000
+        tableView.estimatedRowHeight = 1000.0
         tableView.register(UINib.init(nibName: "ShoppingCartCell", bundle: nil), forCellReuseIdentifier: "ShoppingCartCell")
+        
+    }
+    
+    
+    
+    // MARK:=== 编辑按钮点击
+    @IBAction func edit(_ sender: UIButton)
+    {
         
     }
 }
