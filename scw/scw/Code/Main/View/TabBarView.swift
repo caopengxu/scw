@@ -11,37 +11,41 @@ import UIKit
 class TabBarView: UIView {
 
     var itemClickBack: ((NSInteger) -> Void)?
-//    var itemClickBack : (() ->())?
     
-    var _judgeHome = false
-    var _judgeClass = false
-    var _judgeShoppingCart = false
-    var _judgeMine = false
+    var isHome = false
+    var isClass = false
+    var isShoppingCart = false
+    var isMine = false
     
     @IBOutlet weak var homeBtn: TabBarButton!
     @IBOutlet weak var classBtn: TabBarButton!
     @IBOutlet weak var shoppingCartBtn: TabBarButton!
     @IBOutlet weak var mineBtn: TabBarButton!
+ 
     
+    // MARK:=== 初始化
     func setUp()
     {
         btnClick(homeBtn)
     }
     
     
+    // MARK:=== 按钮点击
     @IBAction func btnClick(_ sender: TabBarButton)
     {
-        itemClickBack!(sender.tag)
+        if let itemClickBack = itemClickBack {
+            itemClickBack(sender.tag)
+        }
         
         if (sender.tag == 0)
         {
-            if (!_judgeHome)
+            if (!isHome)
             {
-                _judgeHome = true;
+                isHome = true;
                 
-                _judgeClass = false;
-                _judgeShoppingCart = false;
-                _judgeMine = false;
+                isClass = false;
+                isShoppingCart = false;
+                isMine = false;
                 classBtn.isSelected = sender.isSelected;
                 shoppingCartBtn.isSelected = sender.isSelected;
                 mineBtn.isSelected = sender.isSelected;
@@ -50,13 +54,13 @@ class TabBarView: UIView {
         }
         else if (sender.tag == 1)
         {
-            if (!_judgeClass)
+            if (!isClass)
             {
-                _judgeClass = true;
+                isClass = true;
                 
-                _judgeHome = false;
-                _judgeShoppingCart = false;
-                _judgeMine = false;
+                isHome = false;
+                isShoppingCart = false;
+                isMine = false;
                 homeBtn.isSelected = sender.isSelected;
                 shoppingCartBtn.isSelected = sender.isSelected;
                 mineBtn.isSelected = sender.isSelected;
@@ -65,13 +69,13 @@ class TabBarView: UIView {
         }
         else if (sender.tag == 2)
         {
-            if (!_judgeShoppingCart)
+            if (!isShoppingCart)
             {
-                _judgeShoppingCart = true;
+                isShoppingCart = true;
                 
-                _judgeClass = false;
-                _judgeHome = false;
-                _judgeMine = false;
+                isClass = false;
+                isHome = false;
+                isMine = false;
                 classBtn.isSelected = sender.isSelected;
                 homeBtn.isSelected = sender.isSelected;
                 mineBtn.isSelected = sender.isSelected;
@@ -80,13 +84,13 @@ class TabBarView: UIView {
         }
         else if (sender.tag == 3)
         {
-            if (!_judgeMine)
+            if (!isMine)
             {
-                _judgeMine = true;
+                isMine = true;
                 
-                _judgeClass = false;
-                _judgeShoppingCart = false;
-                _judgeHome = false;
+                isClass = false;
+                isShoppingCart = false;
+                isHome = false;
                 classBtn.isSelected = sender.isSelected;
                 shoppingCartBtn.isSelected = sender.isSelected;
                 homeBtn.isSelected = sender.isSelected;

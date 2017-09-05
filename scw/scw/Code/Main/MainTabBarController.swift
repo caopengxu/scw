@@ -11,8 +11,9 @@ import UIKit
 
 class MainTabBarController: UITabBarController {
 
-    override func viewDidAppear(_ animated: Bool) {
-        
+    // MARK:=== 界面显示前后
+    override func viewDidAppear(_ animated: Bool)
+    {
         super.viewDidAppear(animated)
         
         for child in self.tabBar.subviews
@@ -24,19 +25,22 @@ class MainTabBarController: UITabBarController {
         }
     }
     
+    // MARK:=== viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // MARK:=== 设置TabBar
+        // 设置TabBar
         let nib = UINib.init(nibName: "TabBarView", bundle: Bundle.main)
         let tabBarView = nib.instantiate(withOwner: nib, options: nil)[0] as! TabBarView
         tabBarView.frame = CGRect.init(x: 0, y: 0, width: __ScreenWidth, height: 49)
         
         tabBarView.setUp()
-//        tabBarView.itemClickBack {
-//            print(<#T##items: Any...##Any#>)
-//        }
-        
+        tabBarView.itemClickBack = { (num) in
+            
+            UserDefaults.standard.set(NSNumber.init(value: 0), forKey: "CONTENT_OFF_SET")
+            UserDefaults.standard.synchronize()
+            self.selectedIndex = num
+        }
         
         self.tabBar.addSubview(tabBarView)
     }
