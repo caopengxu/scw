@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GoodsTwoCell" rowHeight="220" id="KGk-i7-Jjw" customClass="GoodsTwoCell" customModule="scw" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="219.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="加载" translatesAutoresizingMaskIntoConstraints="NO" id="aiR-5L-4gs" customClass="LoadImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="158" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="aiR-5L-4gs" secondAttribute="height" multiplier="79:80" id="1Qt-QZ-eWB"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="加载" translatesAutoresizingMaskIntoConstraints="NO" id="T3H-tn-sR5" customClass="LoadImageView">
+                        <rect key="frame" x="162" y="0.0" width="158" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="T3H-tn-sR5" secondAttribute="height" multiplier="79:80" id="1hI-fs-THS"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dp5-v5-WH5">
+                        <rect key="frame" x="0.0" y="160" width="158" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="复古雕花" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oO5-pU-6Mf" customClass="MyLabelFont">
+                                <rect key="frame" x="10" y="6" width="138" height="16"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥ 200.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8r-Xq-Dbr" customClass="MyLabelFont">
+                                <rect key="frame" x="10" y="22" width="50.5" height="20"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.086274509799999996" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X8r-Xq-Dbr" firstAttribute="top" secondItem="oO5-pU-6Mf" secondAttribute="bottom" id="Nxa-hA-5Au"/>
+                            <constraint firstAttribute="trailing" secondItem="oO5-pU-6Mf" secondAttribute="trailing" constant="10" id="OGm-UD-cvP"/>
+                            <constraint firstItem="oO5-pU-6Mf" firstAttribute="top" secondItem="Dp5-v5-WH5" secondAttribute="top" constant="6" id="cXT-Pa-XMH"/>
+                            <constraint firstItem="oO5-pU-6Mf" firstAttribute="leading" secondItem="Dp5-v5-WH5" secondAttribute="leading" constant="10" id="oHE-wv-5bs"/>
+                            <constraint firstAttribute="height" constant="50" id="tPN-gI-Vbv"/>
+                            <constraint firstItem="X8r-Xq-Dbr" firstAttribute="leading" secondItem="Dp5-v5-WH5" secondAttribute="leading" constant="10" id="zYj-qZ-Awx"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqZ-c6-Eq2">
+                        <rect key="frame" x="162" y="160" width="158" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="复古雕花" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dsi-eo-Qqs" customClass="MyLabelFont">
+                                <rect key="frame" x="10" y="6" width="138" height="16"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="11"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥ 200.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wt-b7-1P5" customClass="MyLabelFont">
+                                <rect key="frame" x="10" y="22" width="50.5" height="20"/>
+                                <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                                <color key="textColor" red="0.80784313730000001" green="0.086274509799999996" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Dsi-eo-Qqs" secondAttribute="trailing" constant="10" id="DV8-tb-8Ap"/>
+                            <constraint firstItem="1Wt-b7-1P5" firstAttribute="leading" secondItem="pqZ-c6-Eq2" secondAttribute="leading" constant="10" id="PuN-Ti-gdX"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="UKe-r5-sXI"/>
+                            <constraint firstItem="Dsi-eo-Qqs" firstAttribute="leading" secondItem="pqZ-c6-Eq2" secondAttribute="leading" constant="10" id="azA-Z6-zZc"/>
+                            <constraint firstItem="1Wt-b7-1P5" firstAttribute="top" secondItem="Dsi-eo-Qqs" secondAttribute="bottom" id="dam-X7-eV4"/>
+                            <constraint firstItem="Dsi-eo-Qqs" firstAttribute="top" secondItem="pqZ-c6-Eq2" secondAttribute="top" constant="6" id="e1x-5k-iht"/>
+                            <constraint firstAttribute="height" constant="50" id="nsD-oA-hdf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94117647058823528" green="0.94117647059999998" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="T3H-tn-sR5" firstAttribute="width" secondItem="T3H-tn-sR5" secondAttribute="height" multiplier="79:80" id="2ZQ-Ej-FwW"/>
+                    <constraint firstItem="aiR-5L-4gs" firstAttribute="width" secondItem="aiR-5L-4gs" secondAttribute="height" multiplier="79:80" id="3aX-Ym-NEw"/>
+                    <constraint firstItem="pqZ-c6-Eq2" firstAttribute="top" secondItem="T3H-tn-sR5" secondAttribute="bottom" id="ATz-1k-z6o"/>
+                    <constraint firstItem="T3H-tn-sR5" firstAttribute="leading" secondItem="aiR-5L-4gs" secondAttribute="trailing" constant="4" id="Bb6-QZ-Vna"/>
+                    <constraint firstItem="aiR-5L-4gs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IGL-hk-kDD"/>
+                    <constraint firstItem="pqZ-c6-Eq2" firstAttribute="leading" secondItem="Dp5-v5-WH5" secondAttribute="trailing" constant="4" id="N3l-wh-31R"/>
+                    <constraint firstItem="aiR-5L-4gs" firstAttribute="width" secondItem="T3H-tn-sR5" secondAttribute="width" id="Q31-kd-DgU"/>
+                    <constraint firstAttribute="trailing" secondItem="T3H-tn-sR5" secondAttribute="trailing" id="Sj5-62-4xz"/>
+                    <constraint firstItem="aiR-5L-4gs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="U8g-2w-paX"/>
+                    <constraint firstItem="Dp5-v5-WH5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UD1-2c-muP"/>
+                    <constraint firstAttribute="bottom" secondItem="Dp5-v5-WH5" secondAttribute="bottom" constant="9.5" id="YFM-EB-ugV"/>
+                    <constraint firstItem="Dp5-v5-WH5" firstAttribute="width" secondItem="pqZ-c6-Eq2" secondAttribute="width" id="d66-Xe-lwP"/>
+                    <constraint firstItem="Dp5-v5-WH5" firstAttribute="top" secondItem="aiR-5L-4gs" secondAttribute="bottom" id="lbG-Qp-uPz"/>
+                    <constraint firstAttribute="bottom" secondItem="pqZ-c6-Eq2" secondAttribute="bottom" constant="9.5" id="skZ-6f-poK"/>
+                    <constraint firstItem="T3H-tn-sR5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ssE-k1-lgU"/>
+                    <constraint firstAttribute="trailing" secondItem="pqZ-c6-Eq2" secondAttribute="trailing" id="xrx-OI-gvk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="25" y="-3.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="加载" width="50" height="50"/>
+    </resources>
+</document>

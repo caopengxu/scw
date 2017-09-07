@@ -59,6 +59,14 @@
 		BFEBC6351F19B56C0082D27D /* MyButtonFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */; };
 		BFEBC6371F19B57E0082D27D /* MyLabelFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */; };
 		BFEBC6391F19B59B0082D27D /* PXCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBC6381F19B59B0082D27D /* PXCustomView.swift */; };
+		BFFFAF901F5E96390088C85A /* HomeModularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFAF8E1F5E96390088C85A /* HomeModularCell.swift */; };
+		BFFFAF911F5E96390088C85A /* HomeModularCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFFAF8F1F5E96390088C85A /* HomeModularCell.xib */; };
+		BFFFAF941F5E986E0088C85A /* GoodsThreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFAF921F5E986E0088C85A /* GoodsThreeCell.swift */; };
+		BFFFAF951F5E986E0088C85A /* GoodsThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFFAF931F5E986E0088C85A /* GoodsThreeCell.xib */; };
+		BFFFAF981F5E9B8C0088C85A /* GoodsTwoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFAF961F5E9B8C0088C85A /* GoodsTwoCell.swift */; };
+		BFFFAF991F5E9B8C0088C85A /* GoodsTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFFAF971F5E9B8C0088C85A /* GoodsTwoCell.xib */; };
+		BFFFAF9C1F5EA1990088C85A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFAF9A1F5EA1990088C85A /* HomeCell.swift */; };
+		BFFFAF9D1F5EA1990088C85A /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFFAF9B1F5EA1990088C85A /* HomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +143,14 @@
 		BFEBC6341F19B56C0082D27D /* MyButtonFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButtonFont.swift; sourceTree = "<group>"; };
 		BFEBC6361F19B57E0082D27D /* MyLabelFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabelFont.swift; sourceTree = "<group>"; };
 		BFEBC6381F19B59B0082D27D /* PXCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXCustomView.swift; sourceTree = "<group>"; };
+		BFFFAF8E1F5E96390088C85A /* HomeModularCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModularCell.swift; sourceTree = "<group>"; };
+		BFFFAF8F1F5E96390088C85A /* HomeModularCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeModularCell.xib; sourceTree = "<group>"; };
+		BFFFAF921F5E986E0088C85A /* GoodsThreeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsThreeCell.swift; sourceTree = "<group>"; };
+		BFFFAF931F5E986E0088C85A /* GoodsThreeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsThreeCell.xib; sourceTree = "<group>"; };
+		BFFFAF961F5E9B8C0088C85A /* GoodsTwoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsTwoCell.swift; sourceTree = "<group>"; };
+		BFFFAF971F5E9B8C0088C85A /* GoodsTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsTwoCell.xib; sourceTree = "<group>"; };
+		BFFFAF9A1F5EA1990088C85A /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		BFFFAF9B1F5EA1990088C85A /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		DF6A2CB21BD755CF7866D02D /* Pods_scw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -298,6 +314,10 @@
 		BF17FADF1EF772770025E4C7 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				BFFFAF8E1F5E96390088C85A /* HomeModularCell.swift */,
+				BFFFAF8F1F5E96390088C85A /* HomeModularCell.xib */,
+				BFFFAF9A1F5EA1990088C85A /* HomeCell.swift */,
+				BFFFAF9B1F5EA1990088C85A /* HomeCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -498,6 +518,10 @@
 			children = (
 				BF6E42581F21F489001BAE4D /* GoodsCell.swift */,
 				BF6E42591F21F489001BAE4D /* GoodsCell.xib */,
+				BFFFAF961F5E9B8C0088C85A /* GoodsTwoCell.swift */,
+				BFFFAF971F5E9B8C0088C85A /* GoodsTwoCell.xib */,
+				BFFFAF921F5E986E0088C85A /* GoodsThreeCell.swift */,
+				BFFFAF931F5E986E0088C85A /* GoodsThreeCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -663,10 +687,14 @@
 				BF17FB0A1EF91D470025E4C7 /* MineCell.xib in Resources */,
 				BFA12BE31F26D811002112B2 /* ClassHeaderView.xib in Resources */,
 				BFA12C111F29B9EC002112B2 /* ForgetPassWord.storyboard in Resources */,
+				BFFFAF991F5E9B8C0088C85A /* GoodsTwoCell.xib in Resources */,
+				BFFFAF951F5E986E0088C85A /* GoodsThreeCell.xib in Resources */,
 				BF6E42531F21ECC4001BAE4D /* ShoppingCartCell.xib in Resources */,
+				BFFFAF9D1F5EA1990088C85A /* HomeCell.xib in Resources */,
 				BF6E425B1F21F489001BAE4D /* GoodsCell.xib in Resources */,
 				BF17FAFA1EF774BD0025E4C7 /* Home.storyboard in Resources */,
 				BFA12C0B1F298F47002112B2 /* SignController.storyboard in Resources */,
+				BFFFAF911F5E96390088C85A /* HomeModularCell.xib in Resources */,
 				BFA12C0F1F29B9D9002112B2 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,11 +771,13 @@
 				BF17FAF01EF7740E0025E4C7 /* MainNavController.swift in Sources */,
 				BF17FAF41EF774240025E4C7 /* BaseController.swift in Sources */,
 				BF7066C51F0DE7EC00BB6B35 /* TabBarButton.swift in Sources */,
+				BFFFAF941F5E986E0088C85A /* GoodsThreeCell.swift in Sources */,
 				BF496AA31F19B34C00DDD7C9 /* PXCustomLabel.swift in Sources */,
 				BFA12C091F298F35002112B2 /* SignController.swift in Sources */,
 				BF5F33F21F2198F8000765DD /* OrderButton.swift in Sources */,
 				BF17FB001EF774ED0025E4C7 /* ShoppingCartController.swift in Sources */,
 				BF17FAF61EF774240025E4C7 /* MainTabBarController.swift in Sources */,
+				BFFFAF981F5E9B8C0088C85A /* GoodsTwoCell.swift in Sources */,
 				BF17FB041EF7750D0025E4C7 /* MineController.swift in Sources */,
 				BF496A9F1F19B34C00DDD7C9 /* PXCustomButton.swift in Sources */,
 				BFA12C161F29C558002112B2 /* PCH.swift in Sources */,
@@ -765,8 +795,10 @@
 				BF17FAF81EF774B40025E4C7 /* HomeController.swift in Sources */,
 				BF7066C31F0DE7CF00BB6B35 /* TabBarView.swift in Sources */,
 				BF6E425D1F21F4A8001BAE4D /* GoodsModel.swift in Sources */,
+				BFFFAF901F5E96390088C85A /* HomeModularCell.swift in Sources */,
 				BFA12BE11F26D802002112B2 /* ClassHeaderView.swift in Sources */,
 				BF17FB091EF91D470025E4C7 /* MineCell.swift in Sources */,
+				BFFFAF9C1F5EA1990088C85A /* HomeCell.swift in Sources */,
 				BF611AF01F2EBC24008FD5E0 /* CountDownButton.swift in Sources */,
 				BF496AA11F19B34C00DDD7C9 /* PXCustomImageView.swift in Sources */,
 				BF6E42521F21ECC4001BAE4D /* ShoppingCartCell.swift in Sources */,
