@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QorumLogs
 
 class HomeController: UIViewController {
 
@@ -19,9 +20,23 @@ class HomeController: UIViewController {
         tableView.estimatedRowHeight = 1000.0
         tableView.register(UINib.init(nibName: "HomeCell", bundle: nil), forCellReuseIdentifier: "HomeCell")
         
+        QL1("1")
+        QL2("2")
+        QL3("3")
+        QL4("4")
+        QLPlusLine()
+        QLShortLine()
+        
+        
+        print("123")
+        
+        
+        
     }
 
-    
+    func one() -> Void {
+        
+    }
     
 
 }
