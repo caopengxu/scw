@@ -8,6 +8,7 @@
 
 import UIKit
 import QorumLogs
+import Alamofire
 
 class HomeController: UIViewController {
 
