@@ -12,6 +12,15 @@ class ClassController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    // MARK:=== 界面显示前后
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    // MARK:=== viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         

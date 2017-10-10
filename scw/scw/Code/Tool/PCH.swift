@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 import QorumLogs
 
 let __PhoneNumberLength = 11  // 允许输入手机号码的长度

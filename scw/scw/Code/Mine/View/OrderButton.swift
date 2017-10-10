@@ -8,13 +8,17 @@
 
 import UIKit
 
+@IBDesignable
 class OrderButton: UIButton {
 
     override func layoutSubviews() {
         
         super.layoutSubviews()
         
-//        imageView?.center
+        self.imageView?.centerX = __ScreenWidth / 5 / 2
+        self.imageView?.y = 9
+        
+        self.titleLabel?.centerX = __ScreenWidth / 5 / 2
+        self.titleLabel?.y = 32
     }
-
 }

@@ -12,13 +12,22 @@ class MineController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
+    // MARK:=== 界面显示前后
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    // MARK:=== viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 1000
         tableView.register(UINib.init(nibName: "MineCell", bundle: nil), forCellReuseIdentifier: "MineCell")
-        tableView.register(UINib.init(nibName: "GoodsCell", bundle: nil), forCellReuseIdentifier: "GoodsCell")
+        tableView.register(UINib.init(nibName: "GoodsTableCell", bundle: nil), forCellReuseIdentifier: "GoodsTableCell")
         
     }
     
@@ -49,15 +58,15 @@ extension MineController: UITableViewDelegate, UITableViewDataSource {
         
         if (indexPath.section == 0)
         {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "MineCell")
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MineCell") as! MineCell
             
-            return cell!
+            return cell
         }
         else
         {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "GoodsCell")
+            let cell = tableView.dequeueReusableCell(withIdentifier: "GoodsTableCell") as! GoodsTableCell
             
-            return cell!;
+            return cell;
         }
     }
     

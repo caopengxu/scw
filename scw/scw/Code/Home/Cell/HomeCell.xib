@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -109,7 +110,7 @@
                             <constraint firstItem="17B-cN-CvU" firstAttribute="width" secondItem="9bX-xL-QK6" secondAttribute="width" id="erW-Oa-MhG"/>
                             <constraint firstItem="rtt-Jy-TiP" firstAttribute="top" secondItem="3Ps-U0-Eml" secondAttribute="top" constant="13" id="f1d-Tx-dUJ"/>
                             <constraint firstItem="jjc-Ek-6GK" firstAttribute="leading" secondItem="Z4J-Nf-swC" secondAttribute="trailing" id="fba-38-HWc"/>
-                            <constraint firstAttribute="width" secondItem="3Ps-U0-Eml" secondAttribute="height" multiplier="40:11" id="hfo-6x-r3D"/>
+                            <constraint firstAttribute="width" secondItem="3Ps-U0-Eml" secondAttribute="height" multiplier="40:11" priority="999" id="hfo-6x-r3D"/>
                             <constraint firstItem="rtt-Jy-TiP" firstAttribute="width" secondItem="CcN-9Q-Kee" secondAttribute="width" id="ieW-hg-6xW"/>
                             <constraint firstItem="Z4J-Nf-swC" firstAttribute="leading" secondItem="P7N-HB-yCm" secondAttribute="trailing" id="jsY-On-XXL"/>
                             <constraint firstAttribute="trailing" secondItem="jjc-Ek-6GK" secondAttribute="trailing" id="l07-u6-ctC"/>

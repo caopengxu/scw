@@ -54,9 +54,6 @@ class MineCell: UITableViewCell {
         
         
     }
-    
-    
-    
 }
 
 

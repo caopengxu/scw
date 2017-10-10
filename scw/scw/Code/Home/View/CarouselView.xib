@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CarouselView" customModule="scw" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buw-EW-DEW">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="ZOZ-wz-8ez"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="B6o-of-Pmp">
+                    <rect key="frame" x="140" y="83" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="buw-EW-DEW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="BSi-4d-OlA"/>
+                <constraint firstItem="buw-EW-DEW" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="I2V-cS-hVn"/>
+                <constraint firstItem="B6o-of-Pmp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JAT-gM-yjW"/>
+                <constraint firstItem="buw-EW-DEW" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="M6b-bT-gHd"/>
+                <constraint firstItem="B6o-of-Pmp" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="OeQ-yF-pip"/>
+                <constraint firstItem="buw-EW-DEW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="nNK-wi-7Yl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="myPageControl" destination="B6o-of-Pmp" id="1XJ-Kf-1JB"/>
+                <outlet property="myScroll" destination="buw-EW-DEW" id="tc7-GY-Khv"/>
+            </connections>
+        </view>
+    </objects>
+</document>
