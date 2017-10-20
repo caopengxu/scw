@@ -8,16 +8,37 @@
 
 import UIKit
 import Alamofire
+import Moya
 
 class RequestBase: NSObject {
     
-    
-    static func post() {
-        let requestUrl = "http://47.93.55.119:8626/garfield/member/api/v1/memberLogin"
+    static func get() {
+        
         let parameters = ["username":"18232104146", "password":"123456", "grant_type":"password", "scope":"select", "client_id":"scw_client", "client_secret":"123456"]
         let headers: HTTPHeaders = ["clientType":"iOS", "serverVersion":"v1.1"]
         
-        Alamofire.request(requestUrl, method: .post, parameters: parameters, encoding: URLEncoding.default, headers: headers).responseJSON { (response) in
+//        let provider = MoyaProvider<NetAPIManager>()
+//        provider.request(.zen) { result in
+//            switch result {
+//            case let .success(moyaResponse):
+//                let data = moyaResponse.data
+//                let statusCode = moyaResponse.statusCode
+//            // do something with the response data or statusCode
+//            case let .failure(error):
+//                // this means there was a network failure - either the request
+//                // wasn't sent (connectivity), or no response was received (server
+//                // timed out).  If the server responds with a 4xx or 5xx error, that
+//                // will be sent as a ".success"-ful response.
+//            }
+//        }
+    }
+    
+    static func post() {
+        
+        let parameters = ["username":"18232104146", "password":"123456", "grant_type":"password", "scope":"select", "client_id":"scw_client", "client_secret":"123456"]
+        let headers: HTTPHeaders = ["clientType":"iOS", "serverVersion":"v1.1"]
+        
+        Alamofire.request(SC_Login, method: .post, parameters: parameters, encoding: URLEncoding.default, headers: headers).responseJSON { (response) in
             
             switch response.result {
             case .success(let json):
